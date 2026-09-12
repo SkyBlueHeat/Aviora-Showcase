@@ -1,0 +1,119 @@
+===========================================
+BONUS RESOURCES - SAMPLE PREVIEW
+Developer Job Application Tracker PRO
+===========================================
+
+This is a PREVIEW of the bonus resources included in the full package.
+
+===========================================
+
+INTERVIEW QUESTIONS - SAMPLE (5 of 100+)
+
+1. What is the difference between == and === in JavaScript?
+2. Explain the concept of closures in JavaScript.
+3. What is the difference between block, inline, and inline-block elements?
+4. How do you optimize website performance?
+5. What are RESTful APIs?
+
+Full package includes 100+ questions covering:
+- Frontend Development (30 questions)
+- Backend Development (30 questions)
+- Algorithms & Data Structures (20 questions)
+- Behavioral Questions (20 questions)
+
+===========================================
+
+EMAIL TEMPLATES - SAMPLE (2 of 10)
+
+COLD EMAIL TO RECRUITER:
+
+Subject: Senior Frontend Developer - [Your Name]
+
+Dear [Recruiter Name],
+
+I hope this email finds you well. I came across the Senior Frontend Developer position at [Company Name] and was immediately drawn to the opportunity.
+
+With [Number] years of experience in frontend development, I specialize in [Key Skills]. At my current role, I've [mention achievement].
+
+I've attached my resume for review. I would welcome the opportunity to discuss how I can contribute to [Company Name].
+
+Best regards,
+[Your Name]
+
+THANK YOU EMAIL AFTER INTERVIEW:
+
+Subject: Thank You - Interview - [Your Name]
+
+Dear [Interviewer Name],
+
+Thank you so much for taking the time to speak with me today. I truly enjoyed our conversation and learning more about the team.
+
+Our discussion about [specific topic] particularly resonated with me. I'm very excited about the possibility of joining [Company Name].
+
+Please let me know if there's any additional information I can provide.
+
+Best regards,
+[Your Name]
+
+Full package includes 10 professional templates:
+- Cold Outreach
+- Application Follow-up
+- Thank You After Interview
+- Job Offer Acceptance
+- Job Offer Declination
+- Salary Information Request
+- Salary Negotiation
+- Networking Introduction
+- Referral Request
+- Resignation Letter
+
+===========================================
+
+LINKEDIN OPTIMIZATION - SAMPLE
+
+HEADLINE EXAMPLE:
+"Senior Frontend Developer | React | TypeScript | Building scalable web applications"
+
+SUMMARY STRUCTURE:
+- Who you are
+- What you do
+- Key achievements
+- What you're looking for
+
+Full package includes complete profile overhaul strategy with:
+- Profile optimization tactics
+- Headline and summary templates
+- Networking strategies
+- Content strategy
+- Outreach scripts
+
+===========================================
+
+SALARY NEGOTIATION - SAMPLE
+
+INITIAL OFFER RESPONSE:
+
+"Thank you for the offer! I'm excited about this opportunity. Based on my research and experience, I was targeting a base salary of [Your Target]. Given my experience with [Key Skills], I believe this would be fair. Is there any flexibility?"
+
+Full package includes step-by-step negotiation tactics:
+- Pre-negotiation preparation
+- Initial offer response scripts
+- Handling objections
+- Component negotiation strategies
+- Counter-offer scenarios
+
+===========================================
+
+PURCHASE FULL PACKAGE FOR:
+- 100+ Complete Interview Questions
+- 10 Professional Email Templates
+- Complete LinkedIn Optimization Guide
+- Technical Interview Checklist
+- Salary Negotiation Script
+- Company Research Template
+- Portfolio Project Tracker
+- And much more!
+
+===========================================
+
+CreatorDockStudio

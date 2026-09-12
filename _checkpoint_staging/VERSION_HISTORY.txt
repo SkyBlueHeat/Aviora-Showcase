@@ -1,0 +1,152 @@
+===========================================
+VERSION HISTORY
+Developer Job Application Tracker PRO
+CreatorDockStudio
+===========================================
+
+VERSION 3.0 - Current Release
+Release Date: June 2026
+
+FEATURES:
+- Executive Dashboard with 12 KPI cards (Total, Active, Interviews by type, Offers, Rejections, Ghosted, Pending, Response Rate)
+- 6 Dashboard charts (Monthly Applications, Status Pie, Source Bar, Work Type Doughnut, Priority Bar, Interview Funnel)
+- Performance Metrics section (Interview Rate, Offer Rate, Success Rate, Avg Fit Score, Avg Decision Score, Ghost Rate)
+- Goal Progress widgets (Monthly, Weekly, Interview, Networking)
+- Full Statistics & Analytics page with 24+ automatic formulas
+- Applications sheet expanded to 33 columns with data validation dropdowns
+- Conditional formatting on Status, Priority, Fit Score, Follow-up dates
+- Interview Tracker expanded to 17 columns with prep status, confidence, difficulty
+- Recruiter CRM expanded with relationship status, response time, reminders
+- Target Companies expanded with hiring status, visa, tech stack, Glassdoor, priority score
+- Salary Comparison with auto-calculated Annual, Monthly, Hourly, Total Comp, Tax, Net, Decision Score, Ranking
+- Networking Tracker expanded with connection type, platform, referral tracking
+- Skill Gap Analysis with progress bars, estimated hours, completion dates
+- Offer Decision Matrix with 15-criteria weighted scoring and auto-ranking
+- Premium UX/UI: professional blue/gray palette, alternating rows, freeze panes, auto-filters
+- Tab colors for visual navigation
+- No VBA — all formulas, compatible with Excel 365 and Excel for Mac
+
+IMPROVEMENTS:
+- All 16 sheets upgraded with data validation dropdowns
+- Conditional formatting throughout (status colors, priority colors, data bars, overdue highlights)
+- Freeze panes and auto-filters on all data sheets
+- Alternating row colors for readability
+- Professional header styling with navy background
+- Charts use hidden data area for clean dashboard appearance
+
+BUG FIXES:
+- None (new upgrade)
+
+KNOWN ISSUES:
+- None reported
+
+===========================================
+
+VERSION 2.0 - Previous Release
+Release Date: June 2026
+
+FEATURES:
+- 16 integrated Excel sheets with live Dashboard
+- Application Tracker with 300+ capacity
+- Interview Tracker with multi-stage support and ratings
+- Recruiter CRM for contact management
+- Target Companies wishlist
+- Salary Comparison tool with total compensation
+- Weekly Planner for goal setting
+- Job Search Statistics & Charts
+- Notes section
+- Python Launcher with visual sidebar UI
+- ATS Resume Checker (0-100 score, missing keywords, weak verbs, formatting issues)
+- Job Description Analyzer (seniority, salary estimate, red/green flags, fit score)
+- Cover Letter Generator
+- Interview Prep AI with STAR analysis and feedback
+- LinkedIn Message Generator (5 templates)
+- Salary Negotiation Calculator (breakdown, counter strategy, 3-offer comparison)
+- Goals & Streak Tracker
+- Auto Backup script
+- Data Export (CSV, JSON, HTML, PDF)
+- Report Generator (weekly/monthly)
+- Notion Sync support
+- Data Validation script
+- Email Reminder for follow-ups
+- Bonus email templates, interview questions, salary negotiation script
+
+IMPROVEMENTS:
+- Professional dark UI in the Python launcher
+- Smoother hover and active states in the sidebar
+- Modernized color palette and typography
+- Improved backup cleanup and error handling
+- Safer HTML export with proper escaping
+- More flexible date validation for real-world Excel data
+
+BUG FIXES:
+- Backup script now handles missing source files gracefully
+- Export script now escapes HTML content safely
+- Validation script accepts common date formats and date objects
+- Report generator lists most recent applications by date
+
+KNOWN ISSUES:
+- None reported
+
+===========================================
+
+VERSION 1.0 - Initial Release
+Release Date: 2026
+
+FEATURES:
+- Dynamic Dashboard with automatic KPI calculations
+- Application Tracker with 300+ capacity
+- Interview Tracker with multi-stage support
+- Recruiter CRM for contact management
+- Target Companies wishlist
+- Salary Comparison tool
+- Weekly Planner for goal setting
+- Job Search Statistics
+- Notes section
+- Dropdown menus for data consistency
+- Automatic formulas and calculations
+- Premium design
+- Compatible with Excel, Google Sheets, Numbers
+
+===========================================
+
+MIGRATION GUIDE
+
+When updating to a new version:
+
+1. Download the new version from Etsy
+2. Open both old and new files
+3. Copy your data from the old file
+4. Paste into the new file
+5. Save the new version
+6. Archive the old version
+
+TIPS:
+- Always keep a backup before migrating
+- Verify formulas after migration
+- Check that all data transferred correctly
+- Test Dashboard calculations
+
+===========================================
+
+UPDATE NOTIFICATIONS
+
+Updates will be delivered through Etsy. Check your purchases page for the latest version.
+
+To receive update notifications:
+- Enable Etsy notifications for this shop
+- Check CreatorDockStudio announcements
+- Follow CreatorDockStudio on social media
+
+===========================================
+
+FEEDBACK
+
+We value your feedback! If you have suggestions for future versions, please contact us through Etsy messages.
+
+===========================================
+
+CreatorDockStudio
+Premium digital products for developers and creators
+
+===========================================

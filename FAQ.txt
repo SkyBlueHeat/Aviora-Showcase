@@ -1,0 +1,160 @@
+===========================================
+FREQUENTLY ASKED QUESTIONS
+Developer Job Application Tracker PRO v3.0
+===========================================
+
+GENERAL QUESTIONS
+
+Q: What software do I need to use this tracker?
+A: This tracker works with Microsoft Excel (2013 or later), Google Sheets, Apple Numbers, and LibreOffice Calc. It's designed to be compatible with most spreadsheet software.
+
+Q: Is this a physical product?
+A: No, this is a digital download. You'll receive instant access to the files immediately after purchase.
+
+Q: How do I access my files after purchase?
+A: After purchase, you'll receive a download link via email. You can also access your files through your Etsy purchases page.
+
+Q: Can I use this on my phone or tablet?
+A: Yes, if you have the Excel, Google Sheets, or Numbers app installed on your device, you can use the tracker on mobile.
+
+Q: How many applications can I track?
+A: The tracker is designed to handle 300+ applications. You can easily add more rows if needed.
+
+Q: Will this work on both Mac and PC?
+A: Yes, the Excel file is compatible with both Mac and PC. Google Sheets and Numbers also work on both platforms.
+
+Q: Do I need to be an Excel expert to use this?
+A: No! The tracker is designed to be user-friendly. All formulas are pre-built, and dropdown menus make data entry easy. A comprehensive user guide is included.
+
+Q: Can I customize the tracker?
+A: Yes, the tracker is fully customizable. You can add columns, change colors, modify formulas, and adjust the layout to suit your needs.
+
+Q: What if I lose my files?
+A: You can always re-download your files from your Etsy purchases page. We recommend keeping a backup copy.
+
+Q: Do you offer refunds?
+A: Due to the nature of digital products, we don't offer refunds. However, if you experience technical issues, please contact us and we'll help resolve them.
+
+FEATURES & FUNCTIONALITY
+
+Q: How does the Dashboard update automatically?
+A: The Dashboard uses formulas that pull data from the other sheets. When you add or update information in the Applications, Interview Tracker, or other sheets, the Dashboard reflects those changes instantly.
+
+Q: What KPIs does the Dashboard track?
+A: The Dashboard tracks: Applications Sent, Interviews, Offers, Rejections, Ghosted, Response Rate, Interview Rate, Offer Rate, Average Salary, Highest Offer, Applications This Week, Applications This Month, and more.
+
+Q: Can I add my own columns to the sheets?
+A: Yes, you can insert new columns. However, be careful not to delete or rename existing columns that are referenced by Dashboard formulas.
+
+Q: How do the dropdown menus work?
+A: Dropdown menus are pre-configured in specific cells. Click on the cell and select an option from the list. This ensures consistent data entry.
+
+Q: What is the Fit Score?
+A: The Fit Score is a 1-100 rating you assign to each application based on how well you match the job requirements. Use it to prioritize your applications.
+
+Q: How does the Salary Comparison tool work?
+A: Enter the details of each offer (base salary, bonus, equity, benefits, etc.). The Total Compensation column automatically calculates the sum, and you can compare offers side-by-side.
+
+Q: Can I track multiple job searches?
+A: Yes, you can use the tracker for multiple job searches. You might want to create separate copies of the file for different job types or time periods.
+
+Q: Does the tracker sync across devices?
+A: The Excel file itself doesn't sync. However, if you save it to Google Drive or use Google Sheets, it will sync across devices.
+
+Q: How do I print the tracker?
+A: You can print any sheet by going to File > Print. Adjust the print settings to fit your needs. The tracker is designed to be print-friendly.
+
+TECHNICAL SUPPORT
+
+Q: The formulas aren't working. What should I do?
+A: First, make sure you're using a compatible spreadsheet software. If using Excel, ensure calculation is set to automatic (Formulas > Calculation Options > Automatic). If issues persist, contact us.
+
+Q: The file won't open. Help!
+A: Ensure you have Excel, Google Sheets, or Numbers installed. Try right-clicking the file and selecting "Open With" to choose your preferred software.
+
+Q: Can I use this with Google Sheets?
+A: Yes! Upload the Excel file to Google Drive, right-click, and select "Open with Google Sheets." Most features work perfectly, though some advanced Excel features may have slight differences.
+
+Q: The formatting looks different in my software. Is this normal?
+A: Minor formatting differences can occur between Excel, Google Sheets, and Numbers. The core functionality remains the same.
+
+Q: How do I update the tracker when you release new versions?
+A: You'll receive notification of updates through Etsy. Download the new version from your purchases page. Your data will need to be transferred manually to the new version.
+
+Q: Can I share this with friends or colleagues?
+A: The personal use license allows you to use the tracker for yourself only. Sharing with others violates the license agreement. Encourage them to purchase their own copy.
+
+Q: What if I find a bug or have a feature suggestion?
+A: We welcome feedback! Contact us through Etsy messages with details about the bug or your feature suggestion. We consider all feedback for future updates.
+
+PYTHON LAUNCHER & TOOLS
+
+Q: What is the Python launcher?
+A: The launcher is a desktop app that opens from `launcher.py`. It provides a visual interface for tools like ATS Resume Checker, Job Description Analyzer, Interview Prep, LinkedIn Message Generator, Salary Calculator, and Streak Tracker.
+
+Q: Do I need to install Python to use the launcher?
+A: Yes, Python 3.9 or higher is required. You also need to install dependencies once by running `pip install -r requirements.txt` in your terminal.
+
+Q: Can I use the Excel tracker without the Python tools?
+A: Yes, the Excel tracker works completely on its own. The Python tools are optional enhancements.
+
+Q: How do I run the launcher?
+A: Double-click `launcher.py`, or open a terminal in the product folder and run `python launcher.py`.
+
+Q: What is the ATS Resume Checker?
+A: It analyzes your resume against a job description and gives you an ATS compatibility score (0-100), missing keywords, weak verbs, and formatting issues.
+
+Q: What file formats work with the ATS Resume Checker?
+A: `.docx`, `.pdf`, and `.txt` files are supported.
+
+Q: What is the Job Description Analyzer?
+A: It reads any job posting and extracts seniority level, estimated salary range, required skills, red/green flags, and personalized cover letter keywords. It can also add the role to your Excel tracker.
+
+Q: Does the Job Description Analyzer need an internet connection?
+A: No, all analysis is done locally on your computer. No API keys are required for basic use.
+
+Q: Can I sync my data with Notion?
+A: Yes, the launcher includes a Notion Sync tab. You need a Notion integration token and database ID to use it.
+
+Q: How do I get a Notion token?
+A: Go to notion.so → Settings & members → Integrations → New integration. Copy the token and paste it into the launcher’s Notion Sync tab along with your database ID.
+
+Q: Does the email reminder need my email password?
+A: Yes, if you want automated follow-up emails, the launcher asks for your SMTP settings (email, password, server, port). This is stored only on your computer and is never sent to us.
+
+BILLING & PAYMENT
+
+Q: Will I be charged for updates?
+A: No, updates are free for lifetime. You'll never be charged additional fees for improvements to the tracker.
+
+Q: Can I get a refund if I'm not satisfied?
+A: Due to the digital nature of the product, refunds are not available. However, we're committed to helping you use the product effectively. Contact us if you need assistance.
+
+Q: Do you offer bulk or team licenses?
+A: Contact us through Etsy for information about team or bulk licensing options.
+
+Q: Is my payment information secure?
+A: All payments are processed through Etsy's secure payment system. We never have access to your payment information.
+
+UPDATES & VERSIONS
+
+Q: How often do you update the tracker?
+A: We update the tracker periodically based on user feedback and to add new features. There's no set schedule, but we aim to improve it regularly.
+
+Q: How will I know about updates?
+A: Etsy will notify you when a file is updated. You can also check your purchases page for the latest version.
+
+Q: Will I lose my data when updating?
+A: Yes, you'll need to transfer your data manually to the new version. We recommend keeping your current version until you've successfully migrated your data.
+
+Q: Can I suggest features for future versions?
+A: Absolutely! We love user feedback. Send your suggestions through Etsy messages, and we'll consider them for future updates.
+
+Q: What's included in updates?
+A: Updates may include bug fixes, new features, design improvements, and enhanced functionality. Major version updates will be clearly communicated.
+
+===========================================
+
+Still have questions? Contact us through Etsy messages!
+
+===========================================

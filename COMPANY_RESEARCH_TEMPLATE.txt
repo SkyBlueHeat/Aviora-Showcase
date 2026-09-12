@@ -1,0 +1,367 @@
+===========================================
+COMPANY RESEARCH TEMPLATE
+Developer Job Application Tracker PRO
+===========================================
+
+BASIC INFORMATION
+
+Company Name: _______________
+
+Website: _______________
+
+Industry: _______________
+
+Founded: _______________
+
+Headquarters: _______________
+
+Company Size: □ 1-10 □ 11-50 □ 51-200 □ 201-500 □ 501-1000 □ 1000+
+
+Stage: □ Startup □ Growth □ Established □ Public
+
+Funding: _______________
+
+Last Funding Round: _______________
+
+===========================================
+
+PRODUCTS & SERVICES
+
+Main Product/Service: _______________
+
+Target Market: _______________
+
+Business Model: _______________
+
+Key Features: _______________
+
+Competitors: _______________
+
+Unique Value Proposition: _______________
+
+Recent Product Launches: _______________
+
+===========================================
+
+TECHNOLOGY STACK
+
+Frontend: _______________
+
+Backend: _______________
+
+Database: _______________
+
+Cloud/Infrastructure: _______________
+
+DevOps Tools: _______________
+
+Mobile: _______________
+
+Other Technologies: _______________
+
+Tech Debt Level: □ Low □ Medium □ High
+
+Innovation Level: □ Cutting-edge □ Modern □ Legacy
+
+===========================================
+
+CULTURE & VALUES
+
+Mission Statement: _______________
+
+Vision: _______________
+
+Core Values: _______________
+
+Work Culture: _______________
+
+Remote Policy: □ Fully Remote □ Hybrid □ On-site Only
+
+Work Hours: _______________
+
+Diversity & Inclusion: _______________
+
+Employee Reviews (Glassdoor/Blind): _______________
+
+===========================================
+
+LEADERSHIP TEAM
+
+CEO: _______________
+
+CTO/Engineering Lead: _______________
+
+Other Key Leaders: _______________
+
+Leadership Style: _______________
+
+Tenure of Leadership: _______________
+
+Recent Leadership Changes: _______________
+
+===========================================
+
+FINANCIAL HEALTH
+
+Revenue (if public): _______________
+
+Growth Rate: _______________
+
+Profitability: □ Profitable □ Break-even □ Pre-profit
+
+Funding Status: _______________
+
+Burn Rate: _______________
+
+Runway: _______________
+
+Financial Stability: □ Strong □ Stable □ Concerning
+
+===========================================
+
+GROWTH & TRAJECTORY
+
+Year-over-Year Growth: _______________
+
+Market Position: □ Leader □ Challenger □ Niche
+
+Expansion Plans: _______________
+
+New Markets: _______________
+
+Acquisition History: _______________
+
+Future Outlook: _______________
+
+===========================================
+
+ENGINEERING TEAM
+
+Team Size: _______________
+
+Engineering Culture: _______________
+
+Development Process: □ Agile □ Waterfall □ Other
+
+Code Quality Standards: _______________
+
+Testing Approach: _______________
+
+Deployment Frequency: _______________
+
+Innovation Encouraged: □ Yes □ No
+
+Learning & Development: _______________
+
+===========================================
+
+BENEFITS & PERKS
+
+Salary Range: _______________
+
+Bonus Structure: _______________
+
+Equity/Stock Options: _______________
+
+Health Insurance: _______________
+
+Retirement/401k: _______________
+
+PTO Policy: _______________
+
+Parental Leave: _______________
+
+Other Benefits: _______________
+
+Perks: _______________
+
+===========================================
+
+CAREER OPPORTUNITIES
+
+Growth Path: _______________
+
+Promotion Opportunities: _______________
+
+Learning Budget: _______________
+
+Conference Attendance: _______________
+
+Mentorship Program: _______________
+
+Internal Mobility: _______________
+
+===========================================
+
+RECENT NEWS & EVENTS
+
+Recent Announcements: _______________
+
+Press Coverage: _______________
+
+Product Launches: _______________
+
+Partnerships: _______________
+
+Awards/Recognition: _______________
+
+Controversies/Issues: _______________
+
+===========================================
+
+SOCIAL MEDIA PRESENCE
+
+LinkedIn: _______________
+
+Twitter/X: _______________
+
+GitHub: _______________
+
+Blog: _______________
+
+Other Platforms: _______________
+
+Engagement Level: _______________
+
+Content Quality: _______________
+
+===========================================
+
+EMPLOYEE INSIGHTS
+
+Current Employees: _______________
+
+Former Employees: _______________
+
+Alumni Network: _______________
+
+Referral Program: _______________
+
+Employee Satisfaction: _______________
+
+Turnover Rate: _______________
+
+===========================================
+
+RED FLAGS TO WATCH
+
+□ High turnover in recent months
+□ Negative employee reviews
+□ Leadership changes
+□ Financial instability
+□ Product quality issues
+□ Legal troubles
+□ Toxic culture reports
+□ Lack of transparency
+□ Poor work-life balance
+□ Outdated technology
+
+Notes on Red Flags: _______________
+
+===========================================
+
+GREEN FLAGS
+
+□ Strong growth trajectory
+□ Positive employee reviews
+□ Innovative products
+□ Strong leadership
+□ Good financial health
+□ Investment in employees
+□ Clear career path
+□ Modern tech stack
+□ Good work-life balance
+□ Strong values alignment
+
+Notes on Green Flags: _______________
+
+===========================================
+
+NETWORKING CONNECTIONS
+
+People I Know: _______________
+
+LinkedIn Connections: _______________
+
+Alumni Connections: _______________
+
+Referral Opportunities: _______________
+
+Networking Events: _______________
+
+===========================================
+
+APPLICATION STRATEGY
+
+Why I Want to Work Here: _______________
+
+Value I Can Bring: _______________
+
+Fit Assessment: □ Excellent □ Good □ Fair □ Poor
+
+Priority Level: □ High □ Medium □ Low
+
+Application Timeline: _______________
+
+Networking Approach: _______________
+
+===========================================
+
+QUESTIONS TO ASK
+
+About the Role:
+1. _______________
+2. _______________
+3. _______________
+
+About the Team:
+1. _______________
+2. _______________
+3. _______________
+
+About the Company:
+1. _______________
+2. _______________
+3. _______________
+
+About Growth:
+1. _______________
+2. _______________
+3. _______________
+
+===========================================
+
+RESEARCH SOURCES
+
+Company Website: □ Reviewed
+LinkedIn Company Page: □ Reviewed
+Glassdoor: □ Reviewed
+Blind: □ Reviewed
+News Articles: □ Reviewed
+Financial Reports: □ Reviewed
+Employee Blogs: □ Reviewed
+Tech Blogs: □ Reviewed
+Social Media: □ Reviewed
+Network Contacts: □ Contacted
+
+===========================================
+
+OVERALL ASSESSMENT
+
+Strengths: _______________
+
+Weaknesses: _______________
+
+Opportunities: _______________
+
+Threats: _______________
+
+Final Recommendation: □ Apply □ Research More □ Skip
+
+Confidence Level: _____/10
+
+Next Steps: _______________
+
+===========================================
+
+CreatorDockStudio

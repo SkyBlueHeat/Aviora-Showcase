@@ -1,0 +1,17 @@
+# Developer Job Application Tracker PRO v3.0
+# Install with: pip install -r requirements.txt
+
+# Core (required)
+openpyxl>=3.1.0
+requests>=2.28.0
+
+# Data & Export (required for export/chart/report tools)
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# PDF & Word export (optional — only needed for export tools)
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+
+# OpenAI (optional — cover letter AI mode; offline fallback works without it)
+# openai>=1.0.0

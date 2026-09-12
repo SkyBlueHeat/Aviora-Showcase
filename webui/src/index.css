@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border-subtle;
+  }
+  body {
+    @apply bg-bg-base text-text-primary font-sans antialiased;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-border-strong;
+  }
+  ::-webkit-scrollbar-corner {
+    @apply bg-transparent;
+  }
+}
+
+@layer components {
+  .card {
+    @apply bg-bg-surface border border-border-subtle rounded-xl shadow-sm shadow-black/20;
+  }
+  .card-hover {
+    @apply transition-all duration-200 hover:border-border hover:bg-bg-surface2 hover:shadow-md hover:shadow-black/30;
+  }
+  .btn-primary {
+    @apply bg-accent-indigo text-white font-semibold rounded-lg px-4 py-2.5
+           transition-all duration-150 hover:bg-indigo-500 hover:shadow-lg hover:shadow-accent-indigo/25
+           active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply bg-bg-surface2 text-text-primary font-medium rounded-lg px-4 py-2.5
+           border border-border-subtle transition-all duration-150
+           hover:bg-bg-hover hover:border-border hover:shadow-sm active:scale-[0.98];
+  }
+  .btn-ghost {
+    @apply text-text-secondary font-medium rounded-lg px-3 py-2
+           transition-all duration-150 hover:bg-bg-surface2 hover:text-text-primary;
+  }
+  .input-field {
+    @apply bg-bg-surface2 border border-border-subtle rounded-lg px-3.5 py-2.5
+           text-text-primary text-sm placeholder:text-text-muted
+           transition-all duration-150
+           focus:outline-none focus:border-accent-indigo focus:ring-1 focus:ring-accent-indigo/30;
+  }
+  .badge {
+    @apply inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold;
+  }
+  .nav-item {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-lg cursor-pointer
+           text-text-secondary text-sm font-medium transition-all duration-150
+           hover:bg-bg-surface2 hover:text-text-primary;
+  }
+  .nav-item-active {
+    @apply bg-accent-indigo/10 text-text-primary border-l-2 border-accent-indigo font-semibold;
+  }
+  .kanban-scroll::-webkit-scrollbar {
+    height: 6px;
+  }
+  .kanban-scroll::-webkit-scrollbar-thumb {
+    @apply bg-border-subtle rounded-full;
+  }
+  .kanban-scroll::-webkit-scrollbar-thumb:hover {
+    @apply bg-border;
+  }
+}

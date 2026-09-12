@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Node / Vite
+node_modules/
+webui/node_modules/
+webui/dist/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local app state / generated data
+settings.json
+interview_scores.json
+streak_data.json
+backups/
+exports/
+reports/
+charts/
+cover_letters/
+linkedin_messages/
+
+# Test output / local logs
+*_out.txt
+out.txt
+out2.txt
+adapter_out.txt
+adapter_out2.txt
+adapter_out3.txt
+compile_out.txt
+runall_out.txt
+runall2.txt
+runall3.txt
+tk_out.txt
+test_stdout.txt
+test_stderr.txt
+b1.txt
+b2.txt
+b3.txt
+b4.txt
+b5.txt
+b6.txt
+b7.txt
+b8.txt
+m1.txt
+m2.txt
+m3.txt
+m4.txt
+
+# Temporary / editor
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Release packages / generated bundles
+releases/*.zip
+
+# Keep source workbooks, ignore generated backup workbooks
+backups/*.xlsx

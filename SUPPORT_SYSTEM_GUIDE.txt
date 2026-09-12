@@ -1,0 +1,507 @@
+================================================================================
+                    SUPPORT SYSTEM GUIDE
+                Developer Job Application Tracker PRO
+================================================================================
+
+================================================================================
+SUPPORT TIERS & SLA
+================================================================================
+
+TIER 1 - BASIC (Starter/Pro):
+Response Time: 24-48 hours
+Channels: Etsy messages only
+Hours: Business hours (Mon-Fri)
+Languages: English, Turkish
+
+TIER 2 - PRIORITY (Premium):
+Response Time: 24 hours guaranteed
+Channels: Etsy messages, Email
+Hours: 7 days a week
+Languages: English, Turkish
+Extras: Screen share session if needed
+
+TIER 3 - DEDICATED (Enterprise):
+Response Time: 12 hours guaranteed
+Channels: Etsy messages, Email, Discord
+Hours: 7 days a week
+Languages: English, Turkish
+Extras: Dedicated support contact, training session
+
+================================================================================
+SUPPORT TICKET CATEGORIES
+================================================================================
+
+CAT 1 - FILE ISSUES:
+• File won't open
+• File corrupted
+• Download failed
+• Wrong file received
+
+CAT 2 - FORMULA ISSUES:
+• Formulas not calculating
+• #REF! or #VALUE! errors
+• Dashboard not updating
+• Calculations incorrect
+
+CAT 3 - COMPATIBILITY:
+• Google Sheets issues
+• Apple Numbers issues
+• LibreOffice issues
+• Mobile device issues
+
+CAT 4 - FEATURE QUESTIONS:
+• How to use a specific feature
+• How to customize
+• How dropdowns work
+• How to add data
+
+CAT 5 - CUSTOMIZATION:
+• Adding new columns
+• Changing colors
+• Modifying formulas
+• Adding new sheets
+
+CAT 6 - UPGRADE/BILLING:
+• Upgrade questions
+• Billing issues
+• Refund requests
+• License questions
+
+================================================================================
+COMMON ISSUE RESOLUTION GUIDE
+================================================================================
+
+ISSUE: File won't open
+SOLUTION STEPS:
+1. Ensure Excel 2013+ is installed
+2. Try opening in Google Sheets (free)
+3. Re-download from Etsy purchases page
+4. Check file isn't corrupted (re-download)
+5. Try different browser for download
+6. Clear browser cache and re-download
+ESCALATION: Send alternative download link
+
+---
+
+ISSUE: Formulas showing as text (not calculating)
+SOLUTION STEPS:
+1. Check Formulas > Calculation Options > Automatic
+2. Press Ctrl+Alt+F9 to force recalculate
+3. Ensure cells aren't formatted as Text
+4. Check for circular references
+5. Try File > Options > Formulas > Automatic
+ESCALATION: Send fixed file
+
+---
+
+ISSUE: Dashboard not updating
+SOLUTION STEPS:
+1. Ensure automatic calculation is ON
+2. Add data to Applications sheet (not Dashboard)
+3. Press F9 to manually recalculate
+4. Check formulas reference correct sheet name
+5. Verify no extra spaces in sheet names
+ESCALATION: Video call to diagnose
+
+---
+
+ISSUE: Dropdowns not working
+SOLUTION STEPS:
+1. Click exactly in the cell (not header)
+2. Check data validation is enabled
+3. File > Info > Check for Issues
+4. Try in a fresh download
+5. Google Sheets alternative if Excel issue
+ESCALATION: Custom file with fixed validation
+
+---
+
+ISSUE: Google Sheets compatibility
+SOLUTION STEPS:
+1. Upload .xlsx to Google Drive
+2. Open with Google Sheets
+3. Some formulas may need adjustment
+4. COUNTIF, VLOOKUP fully compatible
+5. Charts may need recreation
+ESCALATION: Google Sheets optimized version
+
+---
+
+ISSUE: #REF! Error
+SOLUTION STEPS:
+1. Don't delete any columns in Applications sheet
+2. Don't move sheets around
+3. Check column references in formulas
+4. Re-download fresh copy
+5. Use validate_data.py script
+ESCALATION: Send corrected formulas
+
+---
+
+ISSUE: Salary showing 0
+SOLUTION STEPS:
+1. Enter salary as number (not text)
+2. Don't use $ symbol in salary field
+3. Remove commas from number
+4. Correct: 150000 (not $150,000)
+5. Check AVERAGEIF formula
+ESCALATION: Fix formula for specific issue
+
+================================================================================
+FAQ EXPANSION (50+ Questions)
+================================================================================
+
+GENERAL QUESTIONS:
+
+Q1: What is the Developer Job Application Tracker PRO?
+A: A comprehensive Excel-based job search management system with 16 integrated sheets, automatic formulas, and bonus resources designed specifically for software developers and IT professionals.
+
+Q2: Who is this for?
+A: Software developers, frontend developers, backend developers, full stack developers, data scientists, DevOps engineers, mobile developers, and any tech professional actively job searching.
+
+Q3: What software do I need?
+A: Microsoft Excel 2013+ (recommended), Google Sheets (free), Apple Numbers (free), or LibreOffice Calc (free).
+
+Q4: Does it work on Mac?
+A: Yes! Compatible with Apple Numbers and Google Sheets. Excel for Mac 2016+ is also supported.
+
+Q5: Does it work on mobile?
+A: Limited functionality on mobile. Recommended to use on desktop for best experience. Google Sheets mobile app works for viewing and basic editing.
+
+Q6: Is it a one-time purchase?
+A: Yes! One-time payment, lifetime access, free updates. No subscription.
+
+Q7: Can I use it on multiple devices?
+A: Yes! Copy the file to any device. Works wherever Excel/Google Sheets is installed.
+
+SETUP QUESTIONS:
+
+Q8: How do I get started?
+A: Open the Excel file, read QUICK_START_GUIDE.txt, then add your first application to the Applications sheet.
+
+Q9: How long does setup take?
+A: 5-10 minutes to set up. Adding your first application takes 2-3 minutes.
+
+Q10: Do I need Excel knowledge?
+A: No! Beginner-friendly. All formulas are pre-built. Just type in the cells and dropdowns handle the rest.
+
+Q11: Can I use it with Google Sheets?
+A: Yes! Upload to Google Drive, open with Google Sheets. Most features work. Some advanced formulas may need minor adjustments.
+
+Q12: How do I import my existing applications?
+A: Copy and paste your existing data into the Applications sheet. Match the column format.
+
+Q13: Can I customize it?
+A: Yes! Add columns, change colors, modify formulas. See CUSTOMIZATION section in USER_GUIDE.txt.
+
+Q14: How do I enable macros?
+A: No macros needed! The tracker uses only standard Excel formulas. Just enable editing.
+
+FEATURE QUESTIONS:
+
+Q15: How does the Dashboard work?
+A: The Dashboard automatically calculates KPIs from your Applications sheet. Add data to Applications, Dashboard updates instantly.
+
+Q16: How do I track a new application?
+A: Go to Applications sheet, fill in row with company, role, status, and other details. Dashboard updates automatically.
+
+Q17: How do the dropdown menus work?
+A: Click on a cell with dropdown (Status, Priority, Remote, Source), a list appears. Click to select.
+
+Q18: Can I add more dropdown options?
+A: Yes! Go to Data > Data Validation and edit the list in the formula field.
+
+Q19: How does the follow-up reminder work?
+A: Enter a date in the Follow-up Date column. The Dashboard shows upcoming follow-ups sorted by date.
+
+Q20: How is Response Rate calculated?
+A: Response Rate = (Interviews + Offers + Rejections) / Total Applications × 100
+
+Q21: How is Fit Score used?
+A: You manually rate each application 1-100. Higher scores = better fit. Dashboard shows top-scored jobs in Priority Jobs section.
+
+Q22: What does "Ghosted" status mean?
+A: Company stopped responding after initial contact. No rejection email, just silence.
+
+Q23: How does the Salary Comparison work?
+A: Enter all compensation details (base, bonus, equity, benefits). Total Compensation auto-calculates. Compare rows side by side.
+
+Q24: What is Network Score in Networking Tracker?
+A: Your assessment of relationship strength (1-10). 10 = very close relationship, mentor level. 1 = just connected.
+
+Q25: How does Cover Letter A/B Testing work?
+A: Mark some cover letters "A" and others "B". Track which group gets more responses. Use winner for future applications.
+
+Q26: What is Offer Decision Matrix?
+A: A scoring system for comparing job offers across 19 factors (salary, remote, culture, growth, etc.). Auto-calculates total score.
+
+Q27: How do I use the Job Search Calendar?
+A: Add interviews, deadlines, coffee chats, networking events. Status tracks if completed. Priority helps focus.
+
+Q28: What is Skill Gap Analysis?
+A: Rate your current skill level vs target level for a role. Identifies gaps and helps create learning plan.
+
+TECHNICAL QUESTIONS:
+
+Q29: Why are my formulas showing as text?
+A: Go to File > Options > Formulas > Set to Automatic. Or check cell format isn't set to Text.
+
+Q30: Why is my Dashboard showing 0?
+A: Add data to Applications sheet first. Dashboard reads from Applications, not directly.
+
+Q31: I see #REF! error, what do I do?
+A: Don't delete any columns in Applications sheet. Re-download if issue persists.
+
+Q32: Can I delete the sample data row?
+A: Yes! Row 2 in each sheet is sample data. Delete it after reviewing.
+
+Q33: Why won't my file open?
+A: Ensure compatible software is installed. Try Google Sheets as alternative.
+
+Q34: My file is slow, how do I fix it?
+A: Limit data to 1000 rows. Delete empty rows. Avoid extra formatting on empty cells.
+
+Q35: How do I backup my data?
+A: Run auto_backup.py script. Or manually copy file to cloud storage weekly.
+
+Q36: Can I export to CSV?
+A: Yes! Run data_export.py script. Or File > Save As > CSV in Excel.
+
+Q37: How do I generate charts?
+A: Run chart_generator.py script. Or manually insert chart in Excel.
+
+Q38: How do I sync with Notion?
+A: Import CSV files from notion_templates folder. Or run sync_notion.py with your API key.
+
+CUSTOMIZATION QUESTIONS:
+
+Q39: How do I add a new column?
+A: Right-click column header > Insert. Add your data. Update any formulas if needed.
+
+Q40: How do I change a color?
+A: Select cell(s), go to Home > Fill Color (paint bucket icon), choose color.
+
+Q41: How do I add a new sheet?
+A: Click + button at bottom. Or right-click a sheet tab > Insert.
+
+Q42: How do I modify a formula?
+A: Click on cell with formula. Edit in formula bar (fx bar). Press Enter to save.
+
+Q43: Can I password-protect my data?
+A: Yes! File > Protect Workbook or Protect Sheet in Excel.
+
+Q44: How do I print a specific sheet?
+A: Go to the sheet, File > Print, select specific sheets.
+
+Q45: Can I change the font?
+A: Yes! Select cells, choose font from Home tab. Segoe UI recommended for consistency.
+
+Q46: How do I hide a sheet I don't use?
+A: Right-click sheet tab > Hide. Right-click any tab > Unhide to restore.
+
+Q47: Can I reorder the sheets?
+A: Yes! Click and drag sheet tabs to reorder. Note: Don't rename sheets as formulas reference sheet names.
+
+Q48: How do I add a logo to the tracker?
+A: Insert > Pictures. Resize and position as needed.
+
+BILLING & LEGAL QUESTIONS:
+
+Q49: Can I share with a friend?
+A: Personal use only. Each person needs their own license. Sharing is not permitted per license terms.
+
+Q50: Can I use this for commercial purposes?
+A: No. Personal use license only. Contact us for commercial licensing.
+
+Q51: Do you offer refunds?
+A: Technical issues resolved or store credit. Premium tier: 7-day satisfaction guarantee.
+
+Q52: How do I get updates?
+A: Check Etsy purchases page. Update notifications sent via Etsy email.
+
+Q53: What's your response time for support?
+A: 24-48 hours on business days. Premium: 24 hours guaranteed. Enterprise: 12 hours guaranteed.
+
+================================================================================
+ESCALATION MATRIX
+================================================================================
+
+LEVEL 1 - SELF-SERVICE:
+• FAQ.txt reference
+• USER_GUIDE.txt reference
+• QUICK_START_GUIDE.txt
+• validate_data.py script
+• test_formulas.py script
+Resolution: Customer resolves independently
+
+LEVEL 2 - EMAIL SUPPORT:
+• 24-48 hour response
+• Troubleshooting steps
+• Alternative solutions
+• Workaround guidance
+Resolution: Support team resolves via email
+
+LEVEL 3 - SCREEN SHARE:
+• Available for Premium/Enterprise
+• 30-minute session
+• Live troubleshooting
+• Feature demonstration
+Resolution: Real-time resolution
+
+LEVEL 4 - CUSTOM FIX:
+• For complex issues
+• Custom file sent
+• Formula corrections
+• Data migration help
+Resolution: Custom solution delivered
+
+LEVEL 5 - REFUND:
+• Only if issue unresolvable
+• Per refund policy
+• Enterprise: Within 7 days
+Resolution: Full or partial refund
+
+================================================================================
+SUPPORT RESPONSE TEMPLATES
+================================================================================
+
+TEMPLATE 1 - File Issue:
+"Hi [Name], thanks for reaching out! Let's get this sorted.
+
+Try these steps:
+1. Re-download from Etsy purchases page
+2. Try opening in Google Sheets (upload to drive.google.com)
+3. If still not working, let me know your Excel version
+
+If none of these work, I'll send you the file directly.
+
+Best,
+CreatorDockStudio"
+
+---
+
+TEMPLATE 2 - Formula Issue:
+"Hi [Name], this is a common issue!
+
+Quick fix:
+1. Go to File > Options > Formulas
+2. Set Calculation to 'Automatic'
+3. Press Ctrl+Alt+F9 to force recalculate
+
+If formulas still show as text, make sure cells aren't formatted as 'Text' format.
+
+Let me know if this helps!
+
+Best,
+CreatorDockStudio"
+
+---
+
+TEMPLATE 3 - How-to Question:
+"Hi [Name], great question!
+
+Here's how:
+[Specific steps]
+
+You can also find detailed instructions in USER_GUIDE.txt (included in your download).
+
+Any other questions, just ask!
+
+Best,
+CreatorDockStudio"
+
+---
+
+TEMPLATE 4 - Upgrade Question:
+"Hi [Name], thanks for your interest in upgrading!
+
+Here's what each tier includes:
+[Tier details]
+
+To upgrade, simply purchase the higher tier on Etsy and I'll send you the difference discount code.
+
+Any questions before you decide?
+
+Best,
+CreatorDockStudio"
+
+---
+
+TEMPLATE 5 - Refund Request:
+"Hi [Name], I'm sorry the product didn't meet your expectations.
+
+Before we process anything, let me try to fix the issue:
+[Troubleshooting steps]
+
+If we can't resolve it, I'll honor our [guarantee/store credit] policy.
+
+What would work best for you?
+
+Best,
+CreatorDockStudio"
+
+================================================================================
+KNOWLEDGE BASE STRUCTURE (Notion)
+================================================================================
+
+HOME PAGE:
+• Welcome
+• Quick Start
+• Contact Support
+
+GETTING STARTED:
+• Download & Install
+• First Time Setup
+• Basic Navigation
+• Adding First Application
+
+FEATURES:
+• Dashboard Guide
+• Application Tracker
+• Interview Tracker
+• Recruiter CRM
+• Target Companies
+• Salary Comparison
+• Weekly Planner
+• Statistics
+• Notes
+• Networking Tracker
+• Skill Gap Analysis
+• Cover Letter Tracker
+• Job Search Calendar
+• Learning Resources
+• Offer Decision Matrix
+
+CUSTOMIZATION:
+• Adding Columns
+• Changing Colors
+• Modifying Formulas
+• Adding Sheets
+
+INTEGRATIONS:
+• Google Sheets Setup
+• Notion Import
+• Python Scripts
+• Calendar Sync
+
+TROUBLESHOOTING:
+• File Issues
+• Formula Errors
+• Dropdown Problems
+• Compatibility Issues
+• Performance Issues
+
+ADVANCED:
+• Python Automation
+• Data Export
+• Report Generation
+• Chart Generation
+• Backup System
+
+FAQ:
+• All 50+ questions organized by category
+
+================================================================================
+CreatorDockStudio
+Premium Digital Products for Developers
+================================================================================

@@ -1,0 +1,63 @@
+===========================================
+QUICK START GUIDE
+Developer Job Application Tracker PRO
+===========================================
+
+GET STARTED IN 5 MINUTES
+
+STEP 1: Open the Excel File
+- Download and open Developer_Job_Application_Tracker_PRO.xlsx
+- Enable editing when prompted
+
+STEP 2: Explore the Dashboard
+- The Dashboard shows your job search at a glance
+- KPIs update automatically as you add data
+
+STEP 3: Add Your First Application
+- Go to the Applications sheet
+- Fill in: Company, Role, Location, Status
+- Watch the Dashboard update
+
+STEP 4: Use Bonus Resources
+- Review interview questions
+- Customize email templates
+- Optimize your LinkedIn profile
+
+STEP 5: Track Your Progress
+- Update applications daily
+- Check statistics weekly
+- Refine your strategy
+
+===========================================
+
+WHAT'S INCLUDED
+
+10 Excel Sheets:
+- Dashboard, Applications, Interview Tracker
+- Recruiter CRM, Target Companies, Salary Comparison
+- Weekly Planner, Statistics, Notes, Portfolio Projects
+
+7 Bonus Resources:
+- 100+ Interview Questions
+- 10 Email Templates
+- LinkedIn Guide
+- Interview Checklist
+- Negotiation Script
+- Research Template
+- Portfolio Tracker
+
+Notion Templates:
+- 5 CSV files for Notion import
+
+Printable Planner:
+- Weekly and monthly templates
+
+===========================================
+
+SUPPORT
+
+Need help? Check the full guides included in the package or contact us through Etsy messages.
+
+===========================================
+
+CreatorDockStudio

@@ -1,0 +1,801 @@
+===========================================
+COMPREHENSIVE USER GUIDE
+Developer Job Application Tracker PRO
+===========================================
+
+TABLE OF CONTENTS
+
+1. Introduction
+2. Getting Started
+3. Sheet-by-Sheet Guide
+   - Dashboard
+   - Applications
+   - Interview Tracker
+   - Recruiter CRM
+   - Target Companies
+   - Salary Comparison
+   - Weekly Planner
+   - Statistics
+   - Notes
+4. Advanced Features
+5. Tips & Best Practices
+6. Troubleshooting
+7. Customization Guide
+8. Data Management
+9. Python Launcher Tools (v3.0)
+
+===========================================
+
+1. INTRODUCTION
+
+The Developer Job Application Tracker PRO is a comprehensive Excel-based tool designed specifically for software developers and IT professionals to manage their job search efficiently.
+
+KEY BENEFITS:
+- Organize all job applications in one place
+- Track interview progress across multiple stages
+- Manage recruiter relationships
+- Compare job offers side-by-side
+- Analyze job search performance with data
+- Never miss a follow-up deadline
+- Prioritize applications based on fit score
+
+DESIGN PHILOSOPHY:
+Built with an Apple-inspired minimalist aesthetic, this tracker combines professional design with powerful functionality. Every element is crafted to help you navigate your job search with clarity and confidence.
+
+===========================================
+
+2. GETTING STARTED
+
+SYSTEM REQUIREMENTS:
+- Microsoft Excel 2013 or later (recommended)
+- Google Sheets (compatible)
+- Apple Numbers (compatible)
+- LibreOffice Calc (compatible)
+
+INSTALLATION:
+1. Download the file from Etsy
+2. Save to a location on your computer
+3. Double-click to open
+4. Enable editing if prompted
+5. Save as your working copy
+
+FIRST TIME SETUP:
+1. Review all sheets to understand the layout
+2. Read the Quick Start Guide
+3. Add your first application
+4. Explore the Dashboard
+5. Customize settings as needed
+
+BACKUP RECOMMENDATIONS:
+- Save a backup copy weekly
+- Use cloud storage (Google Drive, Dropbox, OneDrive)
+- Keep original file untouched as a template
+
+===========================================
+
+3. SHEET-BY-SHEET GUIDE
+
+===========================================
+DASHBOARD
+===========================================
+
+PURPOSE:
+The Dashboard is your command center. It provides a real-time overview of your entire job search with automatic KPI calculations and visual metrics.
+
+SECTIONS:
+
+KPI CARDS (Top Row):
+- Applications Sent: Total number of applications submitted
+- Interviews: Number of interviews scheduled or completed
+- Offers: Number of job offers received
+- Rejections: Number of rejections received
+
+KPI CARDS (Second Row):
+- Response Rate: Percentage of applications that received a response
+- Interview Rate: Percentage of applications that led to interviews
+- Offer Rate: Percentage of applications that resulted in offers
+- Ghosted: Number of applications with no response
+
+SALARY KPIs:
+- Average Salary: Average of all salary entries
+- Highest Offer: Maximum salary offer received
+- Applications This Week: Applications submitted in the last 7 days
+- Applications This Month: Applications submitted this calendar month
+
+JOB PIPELINE TABLE:
+Shows the breakdown of applications by status:
+- Applied: Initial applications submitted
+- Screening: In recruiter screening phase
+- Interview: In interview process
+- Offer: Offers received
+- Rejected: Rejections received
+- Ghosted: No response
+
+Each row shows:
+- Status: Current application status
+- Count: Number of applications in that status
+- Percentage: Percentage of total applications
+
+RECENT ACTIVITY:
+Displays the 5 most recently added applications with:
+- Company name
+- Current status
+- Date applied
+
+UPCOMING FOLLOW-UPS:
+Shows applications with upcoming follow-up dates:
+- Company name
+- Follow-up date
+- Priority level
+
+PRIORITY JOBS:
+Displays top applications by Fit Score:
+- Company name
+- Role
+- Fit Score
+
+HOW IT WORKS:
+The Dashboard uses formulas that automatically pull data from other sheets. When you add or update information in the Applications sheet, the Dashboard updates instantly.
+
+===========================================
+APPLICATIONS
+===========================================
+
+PURPOSE:
+Track every job application in detail with comprehensive data points.
+
+COLUMNS:
+
+Company:
+- Name of the company you applied to
+- Use the official company name
+
+Role:
+- Job title as listed in the posting
+- Include seniority level (e.g., Senior Frontend Developer)
+
+Location:
+- City, State, or Country
+- Include "Remote" if fully remote
+
+Remote:
+- Dropdown: Yes, No, Hybrid
+- Select based on job posting
+
+Salary:
+- Expected salary range or offered amount
+- Format: $100,000 or $80,000 - $120,000
+
+Source:
+- Dropdown: LinkedIn, Indeed, Company Site, Referral, Angel List, Other
+- Where you found the job posting
+
+Date Applied:
+- Date you submitted the application
+- Format: YYYY-MM-DD for consistency
+
+Status:
+- Dropdown: Applied, Screening, Interview, Offer, Rejected, Ghosted
+- Update as your application progresses
+
+Priority:
+- Dropdown: High, Medium, Low
+- Based on your interest level and company fit
+
+Fit Score:
+- 1-100 rating
+- Higher score = better match
+- Consider: skills match, location, salary, culture, growth
+
+Follow-up Date:
+- Date to follow up if no response
+- Typically 1-2 weeks after application
+
+Recruiter:
+- Recruiter name if applicable
+- Include contact info in Recruiter CRM sheet
+
+Interview Date:
+- Scheduled interview date
+- Update as interviews are scheduled
+
+Offer:
+- Offer details if received
+- Link to Salary Comparison sheet for detailed analysis
+
+Notes:
+- Any additional information
+- Application details, contacts, observations
+
+BEST PRACTICES:
+- Fill in as many fields as possible
+- Update status regularly
+- Use consistent date format
+- Add notes for important details
+- Link to Recruiter CRM when applicable
+
+===========================================
+INTERVIEW TRACKER
+===========================================
+
+PURPOSE:
+Track detailed information for each interview stage to prepare effectively and learn from each experience.
+
+COLUMNS:
+
+Company:
+- Company name (should match Applications sheet)
+
+Role:
+- Job title (should match Applications sheet)
+
+Interview Stage:
+- Dropdown: Recruiter Screen, Technical, Live Coding, System Design, HR, Final, Offer, Rejected
+- Select the current or completed stage
+
+Interviewer:
+- Name of the interviewer
+- Include title if known (e.g., Jane Smith - Senior Engineer)
+
+Interview Date:
+- Scheduled or completed interview date
+- Format: YYYY-MM-DD
+
+Preparation Notes:
+- Key topics to study
+- Questions to ask
+- Research findings
+- Technical concepts to review
+
+Result:
+- Dropdown: Pending, Passed, Rejected
+- Update after each interview
+
+Rating:
+- Dropdown: 1-5
+- Rate the interview experience
+- 5 = Excellent, 1 = Poor
+
+Lessons Learned:
+- What went well
+- What to improve
+- Unexpected questions
+- Company culture observations
+
+BEST PRACTICES:
+- Create a separate entry for each interview stage
+- Add preparation notes before the interview
+- Update result immediately after
+- Document lessons learned while fresh
+- Use ratings to track company experience
+
+===========================================
+RECRUITER CRM
+===========================================
+
+PURPOSE:
+Manage your network of recruiters and hiring managers to build professional relationships.
+
+COLUMNS:
+
+Recruiter Name:
+- Full name of the recruiter
+- Include pronouns if known
+
+Company:
+- Company they represent
+- Should match Applications sheet
+
+Email:
+- Professional email address
+- Use for follow-up communication
+
+LinkedIn:
+- LinkedIn profile URL
+- Connect for networking
+
+Position:
+- Their role (e.g., Technical Recruiter, Hiring Manager)
+- Helps tailor communication
+
+Last Contact:
+- Date of last communication
+- Format: YYYY-MM-DD
+
+Next Follow-up:
+- Scheduled follow-up date
+- Keep relationships warm
+
+Relationship Score:
+- Dropdown: 1-5
+- 5 = Strong relationship, 1 = New contact
+- Update based on interactions
+
+Notes:
+- Conversation details
+- Personal information (family, interests)
+- Communication preferences
+- Job preferences they mentioned
+
+BEST PRACTICES:
+- Add recruiters as soon as you connect
+- Update after each interaction
+- Note personal details for relationship building
+- Schedule regular follow-ups
+- Use LinkedIn to stay connected
+
+===========================================
+TARGET COMPANIES
+===========================================
+
+PURPOSE:
+Maintain a wishlist of dream companies and track your progress with each.
+
+COLUMNS:
+
+Company:
+- Company name
+- Use official name
+
+Industry:
+- Industry sector (e.g., Software, E-commerce, Fintech)
+- Helps categorize opportunities
+
+Location:
+- Headquarters or main office location
+- Consider remote options
+
+Remote:
+- Dropdown: Yes, No, Hybrid
+- Company's remote work policy
+
+Size:
+- Company size (e.g., 1-10, 11-50, 51-200, 201-500, 500+, 1000+)
+- Helps understand company structure
+
+Website:
+- Company website URL
+- For research and applications
+
+Status:
+- Dropdown: Researching, Applied, Interviewing, Offer, Rejected, Not Interested
+- Current status with this company
+
+Priority:
+- Dropdown: High, Medium, Low
+- Based on your interest level
+
+Notes:
+- Why you're interested
+- Research findings
+- Networking contacts
+- Application strategy
+
+BEST PRACTICES:
+- Research companies before adding
+- Prioritize based on career goals
+- Update status as you progress
+- Use for networking strategy
+- Review regularly for opportunities
+
+===========================================
+SALARY COMPARISON
+===========================================
+
+PURPOSE:
+Compare job offers side-by-side to make informed decisions about total compensation.
+
+COLUMNS:
+
+Company:
+- Company name
+- Should match Applications sheet
+
+Base Salary:
+- Annual base salary
+- Enter as number (e.g., 150000)
+
+Bonus:
+- Annual bonus amount
+- Enter as number (e.g., 20000)
+
+Equity:
+- Equity value (vested per year)
+- Enter as number (e.g., 50000)
+
+Benefits:
+- Brief description of benefits
+- e.g., "Full Health, 401k Match"
+
+PTO:
+- Paid time off days
+- e.g., "20 days" or "4 weeks"
+
+Remote:
+- Dropdown: Yes, No, Hybrid
+- Remote work policy
+
+Visa Sponsorship:
+- Dropdown: Yes, No, Maybe
+- If applicable to your situation
+
+Total Compensation:
+- Automatically calculated
+- Formula: Base + Bonus + Equity
+- Updates as you enter values
+
+Decision Score:
+- Your subjective rating
+- 1-100 based on overall fit
+- Consider salary, benefits, culture, growth
+
+HOW TO USE:
+1. Add each offer as a row
+2. Enter all compensation details
+3. Review Total Compensation automatically
+4. Compare benefits and perks
+5. Assign Decision Score
+6. Use for final decision making
+
+===========================================
+WEEKLY PLANNER
+===========================================
+
+PURPOSE:
+Set weekly goals and track progress to maintain momentum in your job search.
+
+COLUMNS:
+
+Week Of:
+- Starting date of the week
+- Format: YYYY-MM-DD
+
+Applications Goal:
+- Number of applications to submit this week
+- Set realistic targets (e.g., 10-20)
+
+Completed:
+- Actual number submitted
+- Update daily
+
+Networking:
+- Networking activities planned/completed
+- e.g., "3 coffee chats", "LinkedIn outreach"
+
+Interview Prep:
+- Interview preparation activities
+- e.g., "2 companies to research", "Practice coding"
+
+Learning:
+- Skill development activities
+- e.g., "Learn React patterns", "Complete course"
+
+Follow-ups:
+- Follow-ups to complete
+- e.g., "5 recruiter follow-ups", "3 application check-ins"
+
+Reflection:
+- Weekly notes on progress
+- What worked, what didn't
+- Adjustments for next week
+
+BEST PRACTICES:
+- Set goals at week start
+- Update daily
+- Be realistic with targets
+- Review reflection weekly
+- Adjust based on results
+
+===========================================
+STATISTICS
+===========================================
+
+PURPOSE:
+Track your job search metrics to identify trends and optimize your strategy.
+
+METRICS:
+
+Total Applications:
+- Cumulative applications submitted
+- Target: Set based on your goals
+
+Total Interviews:
+- Cumulative interviews scheduled
+- Target: Aim for 10-20% interview rate
+
+Total Offers:
+- Cumulative offers received
+- Target: Aim for 2-5% offer rate
+
+Networking Contacts:
+- People in your network
+- Target: Build to 50+ relevant contacts
+
+Companies Researched:
+- Companies you've researched
+- Target: 30+ researched companies
+
+Applications/Week:
+- Weekly application velocity
+- Target: 10-20 per week
+
+HOW TO USE:
+1. Set targets for each metric
+2. Update actual numbers weekly
+3. Review progress percentage
+4. Identify areas needing improvement
+5. Adjust strategy based on data
+
+===========================================
+NOTES
+===========================================
+
+PURPOSE:
+Free-form space for general notes, research, and strategy documentation.
+
+SECTIONS:
+
+General Notes:
+- Overall job search strategy
+- Market observations
+- Industry trends
+- Personal reflections
+
+RECOMMENDED USE:
+- Document your job search strategy
+- Note market insights
+- Track industry trends
+- Record lessons learned
+- Plan networking approach
+- Document salary research
+
+===========================================
+
+4. ADVANCED FEATURES
+
+AUTOMATIC FORMULAS:
+The Dashboard uses sophisticated formulas to calculate KPIs automatically:
+- COUNTIF for status-based counting
+- AVERAGEIF for salary calculations
+- DATE functions for weekly/monthly tracking
+- INDEX/MATCH for dynamic lookups
+- LARGE/SMALL for ranking
+
+CONDITIONAL FORMATTING:
+While not pre-applied, you can add conditional formatting to:
+- Highlight high-priority applications
+- Color-code status changes
+- Flag overdue follow-ups
+- Visualize Fit Score ranges
+
+DATA VALIDATION:
+Dropdown menus ensure data consistency:
+- All status fields have predefined options
+- Priority levels are standardized
+- Ratings use consistent scales
+
+CROSS-SHEET REFERENCES:
+The Dashboard pulls data from:
+- Applications sheet for most metrics
+- Interview Tracker for interview details
+- Salary Comparison for offer data
+
+===========================================
+
+5. TIPS & BEST PRACTICES
+
+DAILY ROUTINE:
+- Check Dashboard for updates
+- Add new applications
+- Update status of existing applications
+- Review upcoming follow-ups
+- Schedule interview preparation
+
+WEEKLY ROUTINE:
+- Review Statistics sheet
+- Update Weekly Planner
+- Analyze response rates
+- Adjust strategy based on data
+- Plan networking activities
+
+MONTHLY ROUTINE:
+- Review overall progress
+- Analyze offer conversion
+- Update Target Companies
+- Refine application strategy
+- Set new goals
+
+EFFICIENCY TIPS:
+- Use keyboard shortcuts in Excel
+- Create templates for common entries
+- Use filters to view specific data
+- Sort by priority or date
+- Archive old applications to separate file
+
+NETWORKING TIPS:
+- Add every recruiter to CRM
+- Connect on LinkedIn
+- Follow up within 24-48 hours
+- Personalize communication
+- Provide value to your network
+
+INTERVIEW TIPS:
+- Research before every interview
+- Use Interview Tracker for prep
+- Document lessons learned
+- Send thank-you notes
+- Update status immediately
+
+===========================================
+
+6. TROUBLEBROUBLESHOOTING
+
+FORMULAS NOT CALCULATING:
+- Check calculation mode: Formulas > Calculation Options > Automatic
+- Ensure no circular references
+- Verify cell references are correct
+- Check for #REF! errors (deleted cells)
+
+DROPDOWNS NOT WORKING:
+- Ensure data validation is enabled
+- Check that you're clicking in the correct cell
+- Verify the cell range is correct
+- Try re-saving the file
+
+FILE WON'T OPEN:
+- Check file isn't corrupted
+- Try opening in different software
+- Ensure you have compatible software
+- Re-download from Etsy if needed
+
+FORMATTING ISSUES:
+- Some formatting may differ between Excel/Google Sheets/Numbers
+- Core functionality remains the same
+- Adjust column widths if needed
+- Reset zoom to 100%
+
+DATA LOSS:
+- Always keep backups
+- Use auto-save features
+- Save to cloud storage
+- Keep original as template
+
+===========================================
+
+7. CUSTOMIZATION GUIDE
+
+ADDING COLUMNS:
+1. Right-click column header
+2. Select "Insert"
+3. Name the new column
+4. Update Dashboard formulas if needed
+
+CHANGING COLORS:
+1. Select cells to format
+2. Go to Home > Fill
+3. Choose your color
+4. Apply consistently
+
+MODIFYING FORMULAS:
+1. Click the cell with the formula
+2. Edit in the formula bar
+3. Press Enter to save
+4. Test the change
+
+CREATING CHARTS:
+1. Select data range
+2. Go to Insert > Chart
+3. Choose chart type
+4. Customize as needed
+
+ADDING NEW SHEETS:
+1. Right-click sheet tab
+2. Select "Insert"
+3. Choose "Worksheet"
+4. Name the sheet
+
+===========================================
+
+8. DATA MANAGEMENT
+
+EXPORTING DATA:
+- File > Save As > choose format
+- CSV for data portability
+- PDF for sharing
+- Keep original Excel file
+
+IMPORTING DATA:
+- Copy from other sources
+- Paste as values to preserve formatting
+- Match column headers
+- Verify data integrity
+
+ARCHIVING OLD DATA:
+- Create separate archive file
+- Move completed applications
+- Keep current year active
+- Maintain historical records
+
+BACKUP STRATEGY:
+- Weekly backups to cloud
+- Local backup on external drive
+- Version control for major changes
+- Keep original template clean
+
+===========================================
+
+9. PYTHON LAUNCHER TOOLS (v3.0)
+
+===========================================
+
+The Python launcher adds powerful automation tools to your tracker. To use it, make sure Python 3.9+ is installed and run `pip install -r requirements.txt` once.
+
+LAUNCHER HOME
+- View live stats from your Excel tracker
+- Open the Excel file or project folder with one click
+- Stats refresh automatically every 15 seconds
+
+ATS RESUME CHECKER
+- Upload a resume in DOCX, PDF, or TXT format
+- Optionally provide a job description for targeted analysis
+- Get an ATS score, missing keywords, weak verbs, and formatting warnings
+
+JOB DESCRIPTION ANALYZER
+- Paste a job description to analyze seniority, salary, skills, and red/green flags
+- Add your own skills to receive a personalized fit score
+- Cover letter keyword suggestions help you tailor applications
+- The role can be added automatically to your Excel tracker
+
+INTERVIEW PREP
+- Practice with AI-generated questions across categories
+- Receive instant feedback on STAR structure, keywords, and clarity
+- Track your progress over time
+
+LINKEDIN MESSAGE GENERATOR
+- Generate cold connect, referral, follow-up, thank-you, and reconnection messages
+- Customize with your name, target role, company, and recipient
+
+SALARY NEGOTIATION CALCULATOR
+- Break down total compensation including base, bonus, equity, and benefits
+- Calculate counter-offer strategies
+- Compare up to 3 offers side-by-side
+
+GOALS & STREAK TRACKER
+- Set daily and weekly application goals
+- Log completed applications and maintain a streak
+- View weekly summaries and motivational messages
+
+NOTION SYNC
+- Sync your Applications sheet to a Notion database
+- Requires a Notion integration token and database ID
+
+AUTO BACKUP
+- Create timestamped backups of your Excel tracker
+- Keeps a configurable number of recent backups
+- Optionally sync to cloud folders
+
+DATA EXPORT
+- Export any sheet to CSV, JSON, HTML, or PDF
+- Useful for sharing or archiving
+
+DATA VALIDATION
+- Check your tracker for missing fields, invalid dates, and inconsistent statuses
+- Generates a validation report
+
+===========================================
+
+CONCLUSION
+
+The Developer Job Application Tracker PRO is designed to be your companion throughout your job search journey. Use it consistently, customize it to fit your needs, and let the data guide your strategy.
+
+Remember: A well-organized job search is a successful job search.
+
+For additional support, contact us through Etsy messages.
+
+===========================================
+
+Version 3.0
+CreatorDockStudio
+June 2026
+
+===========================================

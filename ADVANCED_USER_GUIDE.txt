@@ -1,0 +1,522 @@
+================================================================================
+                    ADVANCED USER GUIDE
+                Developer Job Application Tracker PRO v3.0
+================================================================================
+
+================================================================================
+CHAPTER 1: ADVANCED FORMULA TECHNIQUES
+================================================================================
+
+1.1 CUSTOM COUNTIF FORMULAS
+
+Track any custom status:
+=COUNTIF(Applications!J:J,"YourCustomStatus")
+
+Count applications by source:
+=COUNTIF(Applications!H:H,"LinkedIn")
+=COUNTIF(Applications!H:H,"Referral")
+
+Count high priority applications:
+=COUNTIF(Applications!K:K,"High")
+
+Count applications above salary threshold:
+=COUNTIF(Applications!G:G,">100000")
+
+1.2 MULTI-CONDITION COUNTIFS
+
+Count high priority interviews:
+=COUNTIFS(Applications!J:J,"Interview",Applications!K:K,"High")
+
+Count remote offers:
+=COUNTIFS(Applications!J:J,"Offer",Applications!F:F,"Yes")
+
+Count applications this month with specific status:
+=COUNTIFS(Applications!I:I,">="&EOMONTH(TODAY(),-1)+1,Applications!I:I,"<="&EOMONTH(TODAY(),0),Applications!J:J,"Interview")
+
+Count applications by source and status:
+=COUNTIFS(Applications!H:H,"LinkedIn",Applications!J:J,"Interview")
+
+1.3 DYNAMIC DATE FORMULAS
+
+Applications in last 30 days:
+=COUNTIFS(Applications!I:I,">="&TODAY()-30,Applications!I:I,"<="&TODAY())
+
+Applications this quarter:
+=COUNTIFS(Applications!I:I,">="&DATE(YEAR(TODAY()),INT((MONTH(TODAY())-1)/3)*3+1,1),Applications!I:I,"<="&TODAY())
+
+Days since last application:
+=TODAY()-MAX(Applications!I:I)
+
+Days until next follow-up:
+=MIN(IF(Applications!M2:M500>TODAY(),Applications!M2:M500))-TODAY()
+
+1.4 AVERAGE AND STATISTICAL FORMULAS
+
+Average salary for offers only:
+=AVERAGEIF(Applications!J:J,"Offer",Applications!G:G)
+
+Average fit score for interviews:
+=AVERAGEIF(Applications!J:J,"Interview",Applications!L:L)
+
+Median salary across all applications:
+=MEDIAN(IF(Applications!G:G>0,Applications!G:G))
+(Enter with Ctrl+Shift+Enter as array formula)
+
+Standard deviation of fit scores:
+=STDEV(Applications!L2:L500)
+
+1.5 RANKING AND SORTING FORMULAS
+
+Rank companies by fit score:
+=RANK(L2,Applications!L:L,0)
+
+Top 5 companies by salary:
+=LARGE(Applications!G:G,1) through LARGE(Applications!G:G,5)
+
+Most recent application date:
+=MAX(Applications!I:I)
+
+Earliest unresolved follow-up:
+=MIN(IF(Applications!M2:M500>=TODAY(),Applications!M2:M500))
+
+================================================================================
+CHAPTER 2: ADVANCED CUSTOMIZATION
+================================================================================
+
+2.1 ADDING CUSTOM STATUS VALUES
+
+To add custom status "In Review":
+1. Select cells J2:J500 in Applications
+2. Data > Data Validation
+3. Edit formula1 to include new status
+4. Click OK
+
+Original: "Applied,Screening,Interview,Offer,Rejected,Ghosted"
+Updated: "Applied,Screening,In Review,Interview,Offer,Rejected,Ghosted"
+
+2.2 CONDITIONAL FORMATTING
+
+Highlight overdue follow-ups red:
+1. Select K2:K500
+2. Home > Conditional Formatting > New Rule
+3. Use formula: =AND(K2<>"",K2<TODAY())
+4. Set red fill color
+
+Highlight high-priority applications:
+1. Select A2:O500
+2. Conditional Formatting > New Rule
+3. Formula: =$I2="High"
+4. Set light orange fill
+
+Color-code by status:
+- Applied: Blue (#E3F2FD)
+- Interview: Yellow (#FFF9C4)
+- Offer: Green (#E8F5E9)
+- Rejected: Red (#FFEBEE)
+- Ghosted: Gray (#F5F5F5)
+
+2.3 ADDING NEW TRACKING COLUMNS
+
+Example: Add "Portfolio Sent" column
+1. Right-click column O header > Insert
+2. Type header "Portfolio Sent"
+3. Add Yes/No dropdown via Data > Data Validation
+4. Update Dashboard formulas if needed
+
+2.4 CREATING CUSTOM CHARTS
+
+Monthly applications bar chart:
+1. Go to Statistics sheet
+2. Insert > Chart > Column Chart
+3. Select monthly data range
+4. Format with brand colors
+
+Response rate pie chart:
+1. Select status breakdown data
+2. Insert > Chart > Pie Chart
+3. Add data labels showing percentages
+4. Apply brand color palette
+
+================================================================================
+CHAPTER 3: AUTOMATION WITH PYTHON SCRIPTS
+================================================================================
+
+3.1 SETTING UP PYTHON
+
+Requirements:
+pip install -r requirements.txt
+
+Installation:
+1. Install Python 3.9+ from python.org
+2. Open Command Prompt
+3. Navigate to the tracker folder
+4. Run: pip install -r requirements.txt
+5. Run the launcher: python launcher.py
+6. Or run any standalone script: python script_name.py
+
+3.2 AUTO BACKUP SCRIPT
+
+Run daily backup:
+python auto_backup.py
+
+Schedule automatic backup:
+1. Open Task Scheduler (Windows)
+2. Create Basic Task
+3. Trigger: Daily
+4. Action: python "path/to/auto_backup.py"
+
+Configure cloud paths in auto_backup.py:
+cloud_dirs = [
+    'C:/Users/YourName/Google Drive/Backups',
+    'C:/Users/YourName/Dropbox/Backups'
+]
+
+3.3 EMAIL REMINDER SCRIPT
+
+Setup:
+1. Open email_reminder.py
+2. Set to_email = "your-email@gmail.com"
+3. Configure SMTP settings
+4. For Gmail: Use App Password (not regular password)
+
+Gmail App Password setup:
+1. Google Account > Security > 2-Step Verification
+2. At bottom: App passwords
+3. Generate password for Mail
+4. Use that password in script
+
+Run manually:
+python email_reminder.py
+
+Schedule weekly:
+- Windows: Task Scheduler > Weekly trigger
+- Mac/Linux: cron job
+
+3.4 REPORT GENERATION
+
+Generate weekly report:
+python report_generator.py
+
+Output location:
+reports/weekly_report_YYYYMMDD_HHMMSS.txt
+reports/monthly_report_YYYYMMDD_HHMMSS.txt
+
+Customize report content:
+Open report_generator.py, edit:
+- Goals targets
+- Metric thresholds
+- Report format
+- Output location
+
+3.5 CHART GENERATION
+
+Generate all charts:
+python chart_generator.py
+
+Output location:
+charts/pipeline_TIMESTAMP.png
+charts/weekly_trend_TIMESTAMP.png
+charts/salary_distribution_TIMESTAMP.png
+charts/response_rate_TIMESTAMP.png
+
+3.6 DATA EXPORT
+
+Export all sheets:
+python data_export.py
+
+Outputs per sheet:
+exports/SheetName_TIMESTAMP.csv
+exports/SheetName_TIMESTAMP.json
+exports/SheetName_TIMESTAMP.html
+
+3.7 NOTION SYNC
+
+Setup Notion sync:
+1. Create Notion integration at notion.so/my-integrations
+2. Get integration token
+3. Share database with integration
+4. Get database ID from URL
+5. Update sync_notion.py:
+   api_key = "your_token_here"
+   database_id = "your_database_id"
+6. Run: python sync_notion.py
+
+3.8 ATS RESUME CHECKER
+
+Run standalone:
+python ats_resume_checker.py
+
+Inputs:
+- Resume file: .docx, .pdf, or .txt
+- Optional: job description file .txt
+
+Outputs:
+- ATS compatibility score (0-100)
+- Missing keywords from the job description
+- Weak verbs detected
+- Formatting issues
+- Improvement recommendations
+
+3.9 JOB DESCRIPTION ANALYZER
+
+Run standalone:
+python job_description_analyzer.py
+
+Inputs:
+- Paste job description into the prompt
+- Optional: comma-separated list of your skills
+
+Outputs:
+- Seniority level detection
+- Estimated salary range
+- Required vs. nice-to-have skills
+- Red flags and green flags
+- Fit score against your skills
+- Cover letter keyword suggestions
+- Auto-adds the role to your Excel tracker
+
+================================================================================
+CHAPTER 4: DATA MANAGEMENT
+================================================================================
+
+4.1 IMPORTING EXISTING DATA
+
+From other Excel files:
+1. Open both files
+2. Copy data from old file
+3. Paste Values Only (Ctrl+Shift+V) into Applications sheet
+4. Map columns to match headers
+
+From Google Sheets:
+1. File > Download > Excel (.xlsx) in Google Sheets
+2. Open in Excel
+3. Copy data to Applications sheet
+4. Delete downloaded file
+
+From CSV:
+1. Data > From Text/CSV
+2. Import your CSV file
+3. Map to Applications columns
+
+4.2 BULK DATA OPERATIONS
+
+Delete all data (keep formulas):
+1. Select data rows (row 2 onwards)
+2. Right-click > Delete (entire row)
+3. Keep row 1 headers and formulas
+
+Sort applications by date:
+1. Select data range
+2. Data > Sort
+3. Sort by "Date Applied" column
+4. Ascending for chronological
+
+Filter by status:
+1. Data > AutoFilter
+2. Click dropdown on Status column
+3. Select desired status(es)
+
+4.3 DATA VALIDATION MAINTENANCE
+
+Refresh validation lists:
+1. Select validated cells
+2. Data > Data Validation
+3. Update Source list
+4. Click OK and Apply to all
+
+Fix broken validation:
+1. Select affected cells
+2. Clear > Clear All
+3. Re-apply validation from scratch
+
+4.4 ARCHIVE OLD APPLICATIONS
+
+Move old applications to archive:
+1. Create new sheet "Archive_2025"
+2. Cut old rows (6+ months old)
+3. Paste into archive sheet
+4. Dashboard formulas still work from Applications
+
+Annual archive process:
+1. End of year: Create "Archive_YEAR" sheet
+2. Move all rejected/ghosted applications
+3. Keep active applications in main sheet
+
+4.5 PERFORMANCE OPTIMIZATION
+
+Signs of performance issues:
+- File loads slowly
+- Formulas recalculate slowly
+- Scrolling is sluggish
+
+Solutions:
+1. Delete empty rows beyond row 500
+2. Remove formatting from empty cells
+3. Disable unnecessary auto-calculation
+4. Split into multiple workbooks if >1000 rows
+5. Remove chart objects not being used
+
+Limit formula ranges:
+Instead of: =COUNTIF(Applications!J:J,"Interview")
+Use: =COUNTIF(Applications!J2:J500,"Interview")
+
+================================================================================
+CHAPTER 5: INTEGRATION GUIDES
+================================================================================
+
+5.1 GOOGLE SHEETS SETUP
+
+Step 1: Upload to Google Drive
+- Go to drive.google.com
+- Drag and drop .xlsx file
+- Right-click > Open with > Google Sheets
+
+Step 2: Enable Iterative Calculations
+- File > Settings > Calculation
+- Enable iterative calculation
+
+Step 3: Fix Compatibility Issues
+Common issues and fixes:
+- IFERROR() works normally
+- COUNTIF/COUNTIFS work normally
+- Array formulas: Use Ctrl+Shift+Enter
+- Some formatting may need re-applying
+
+Step 4: Share Settings
+- Share with yourself on mobile
+- Set edit permissions appropriately
+- Enable offline access
+
+5.2 NOTION IMPORT
+
+Step 1: Export CSV
+- Go to notion_templates folder
+- CSV files are ready to import
+
+Step 2: Import to Notion
+- Open Notion > Import > CSV
+- Select CSV file
+- Map properties
+
+Step 3: Create Views
+- Table view (default)
+- Board view (Kanban by status)
+- Calendar view (by date applied)
+- Gallery view (company cards)
+- Timeline view (application timeline)
+
+Step 4: Sync Back
+- Export from Notion as CSV
+- Import to Excel for analysis
+
+5.3 GOOGLE CALENDAR SYNC
+
+Manual process:
+1. Open Job Search Calendar sheet
+2. Export to CSV
+3. Import CSV to Google Calendar
+
+Automated via calendar_sync.py:
+1. Set up Google Calendar API
+2. Configure credentials
+3. Run: python calendar_sync.py
+
+5.4 LINKEDIN DATA IMPORT
+
+Export LinkedIn connections:
+1. LinkedIn > Settings > Privacy > Get a copy of your data
+2. Select Connections
+3. Download CSV
+4. Import to Networking Tracker sheet
+
+Map LinkedIn fields:
+- First Name + Last Name → Contact Name
+- Company → Company
+- Connected On → Connection Date
+- Position → (manual entry)
+- Email Address → Email
+
+================================================================================
+CHAPTER 6: TIPS FROM POWER USERS
+================================================================================
+
+TIP 1: THE DAILY 5-MINUTE CHECK
+Every morning:
+1. Open Dashboard (30 seconds)
+2. Check upcoming follow-ups
+3. Update any application statuses
+4. Add any new applications
+5. Note 1 priority action for the day
+
+TIP 2: THE WEEKLY REVIEW
+Every Sunday:
+1. Review Statistics sheet
+2. Calculate response rate trend
+3. Update Weekly Planner for next week
+4. Identify top 3 priorities
+5. Plan networking for the week
+
+TIP 3: THE INTERVIEW DEBRIEF RITUAL
+Within 1 hour of every interview:
+1. Open Interview Tracker
+2. Log result and rating
+3. Write lessons learned immediately
+4. Note questions you couldn't answer
+5. Plan follow-up thank you email
+
+TIP 4: FIT SCORE CALIBRATION
+Be consistent with fit scores:
+- 90-100: Dream job, perfect fit
+- 80-89: Excellent fit, high priority
+- 70-79: Good fit, worth pursuing
+- 60-69: Okay fit, low priority
+- Below 60: Poor fit, only if desperate
+
+TIP 5: RESPONSE RATE MONITORING
+Check weekly:
+- If < 15%: Revise resume/cover letters immediately
+- If 15-25%: Analyze what's working, do more of it
+- If > 25%: Scale up, you're doing well
+- If > 35%: You're a rockstar, maintain strategy
+
+TIP 6: THE FOLLOW-UP FORMULA
+Default follow-up schedule:
+- After applying: Follow up in 7 days
+- After interview: Thank you email in 24 hours
+- After interview: Follow up in 5 days if no response
+- After offer: Respond within 3-5 days
+
+TIP 7: NETWORKING SCORE MAINTENANCE
+Review Networking Tracker monthly:
+- Score 8-10: These are your champions, nurture them
+- Score 5-7: Active relationships, maintain contact
+- Score 1-4: Weak connections, invest or deprioritize
+
+TIP 8: SALARY BENCHMARK UPDATING
+Quarterly salary research:
+- levels.fyi for tech salaries
+- LinkedIn Salary Insights
+- Glassdoor salary data
+- GitHub Octoverse for developer salaries
+Update your Salary Comparison targets accordingly
+
+TIP 9: THE SKILL GAP SPRINT
+Every month:
+1. Review target job postings
+2. Update Skill Gap Analysis
+3. Identify one Critical gap
+4. Dedicate 10 hours to learning it
+5. Log progress in Learning Resources
+
+TIP 10: COVER LETTER A/B TESTING
+Run proper tests:
+- Version A: Traditional format
+- Version B: Problem-solution format
+- Send each to 10+ companies
+- After 30 days, compare response rates
+- Adopt winner as default template
+
+================================================================================
+CreatorDockStudio
+Premium Digital Products for Developers
+================================================================================

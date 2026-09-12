@@ -1,0 +1,331 @@
+================================================================================
+                    BRAND GUIDELINES
+                Developer Job Application Tracker PRO
+                        CreatorDockStudio
+================================================================================
+
+================================================================================
+BRAND IDENTITY
+================================================================================
+
+BRAND NAME: CreatorDockStudio
+PRODUCT NAME: Developer Job Application Tracker PRO
+TAGLINE: "Land Your Dream Job. Organized."
+SECONDARY TAGLINE: "Premium Digital Products for Developers"
+BRAND VOICE: Professional, data-driven, empowering, developer-friendly
+
+================================================================================
+COLOR PALETTE
+================================================================================
+
+PRIMARY COLORS:
+• Brand Black: #222222 (backgrounds, headers, primary text)
+• Pure White: #FFFFFF (backgrounds, cards, primary background)
+
+ACCENT COLORS:
+• Brand Orange: #FF6B35 (primary accent, highlights, CTAs)
+• Brand Teal: #20C4B7 (secondary accent, charts, highlights)
+
+NEUTRAL COLORS:
+• Light Gray: #F5F5F5 (secondary backgrounds, cards)
+• Medium Gray: #DDDDDD (borders, dividers)
+• Dark Gray: #666666 (secondary text, captions)
+• Light Text Gray: #999999 (tertiary text, footer)
+
+USAGE RULES:
+• Black + White = Primary interface
+• Orange = Primary CTA, main highlights
+• Teal = Secondary highlights, charts
+• Light Gray = Card backgrounds, alternating rows
+• DO NOT use more than 3 colors in one layout
+
+HEX CODES FOR DESIGN TOOLS:
+• #222222 (Brand Black)
+• #FFFFFF (Pure White)
+• #FF6B35 (Brand Orange)
+• #20C4B7 (Brand Teal)
+• #F5F5F5 (Light Gray)
+• #DDDDDD (Medium Gray)
+• #666666 (Dark Gray)
+• #999999 (Light Text Gray)
+
+RGB VALUES:
+• Brand Black: rgb(34, 34, 34)
+• Pure White: rgb(255, 255, 255)
+• Brand Orange: rgb(255, 107, 53)
+• Brand Teal: rgb(32, 196, 183)
+
+================================================================================
+TYPOGRAPHY
+================================================================================
+
+PRIMARY FONT: Segoe UI (Windows) / San Francisco (Mac) / Arial (Fallback)
+
+FONT SIZES:
+• Display: 32-48px (page titles, hero headlines)
+• H1: 24px (section titles)
+• H2: 18px (subsection titles)
+• H3: 14px (card titles, subheadings)
+• Body Large: 12px (primary body text)
+• Body: 10px (secondary body text)
+• Caption: 8px (footnotes, metadata)
+
+FONT WEIGHTS:
+• Bold (700): Headlines, KPI values, CTAs
+• Semi-Bold (600): Subheadings, important labels
+• Regular (400): Body text, descriptions
+• Light (300): Captions, secondary info
+
+LINE HEIGHT:
+• Headlines: 1.2
+• Body: 1.5
+• Captions: 1.4
+
+LETTER SPACING:
+• Headlines: -0.5px
+• Body: 0px
+• Captions: +0.5px
+
+================================================================================
+LOGO USAGE GUIDELINES
+================================================================================
+
+LOGO VARIATIONS:
+1. Full Logo (Text + Icon): Primary use
+2. Icon Only: Social media profiles, app icons
+3. Text Only: Minimal contexts, watermarks
+4. Dark Version: Light backgrounds
+5. Light Version: Dark backgrounds
+
+MINIMUM SIZES:
+• Full Logo: 120px wide (print: 40mm)
+• Icon Only: 32px × 32px (print: 10mm)
+
+CLEAR SPACE:
+• Minimum clear space = height of "C" in CreatorDockStudio
+• Never place logo on busy backgrounds without clear space
+
+DO NOT:
+• Stretch or distort the logo
+• Change logo colors outside approved palette
+• Add effects (shadows, gradients, outlines)
+• Place on busy backgrounds without contrast
+• Rotate the logo
+• Use old versions of the logo
+
+APPROVED BACKGROUNDS:
+• White (#FFFFFF) → Use dark logo version
+• Light Gray (#F5F5F5) → Use dark logo version
+• Brand Black (#222222) → Use light logo version
+• Brand Orange (#FF6B35) → Use white logo version
+
+================================================================================
+VISUAL DESIGN PRINCIPLES
+================================================================================
+
+1. APPLE-INSPIRED MINIMALISM
+• Clean, uncluttered layouts
+• Generous white space
+• Functional aesthetics
+• Every element has a purpose
+
+2. CONSISTENT SPACING
+• Base unit: 8px
+• Small spacing: 8px
+• Medium spacing: 16px
+• Large spacing: 24px
+• XL spacing: 32px
+• XXL spacing: 48px
+
+3. BORDER RADIUS
+• Small cards: 4px
+• Medium cards: 8px
+• Large cards: 12px
+• Buttons: 4px
+• Full rounded: 50% (for avatars only)
+
+4. SHADOWS
+• Subtle: 0 2px 4px rgba(0,0,0,0.1)
+• Medium: 0 4px 12px rgba(0,0,0,0.12)
+• Strong: 0 8px 24px rgba(0,0,0,0.15)
+• Hero: 0 16px 48px rgba(0,0,0,0.18)
+
+5. ICONS
+• Style: Line icons (not filled)
+• Stroke width: 1.5-2px
+• Size: 16px, 20px, 24px, 32px
+• Color: Match context (dark on light, light on dark)
+
+================================================================================
+IMAGERY GUIDELINES
+================================================================================
+
+PHOTOGRAPHY STYLE:
+• Clean, modern workspaces
+• Professional but not corporate
+• Diverse representation
+• Tech-focused (computers, code, etc.)
+• Natural lighting preferred
+
+ILLUSTRATION STYLE:
+• Minimal, geometric
+• Consistent with color palette
+• Clean line work
+• No drop shadows on illustrations
+• Flat design preferred
+
+SCREENSHOT GUIDELINES:
+• High resolution (2x / Retina)
+• Clean desktop backgrounds
+• Realistic data (not obviously fake)
+• Highlighted key features
+• Consistent window chrome
+
+MOCKUP GUIDELINES:
+• Use premium device mockups
+• Clean, professional environments
+• Consistent lighting
+• No busy backgrounds
+
+================================================================================
+TONE OF VOICE
+================================================================================
+
+PERSONALITY TRAITS:
+• Professional: Expert-level knowledge
+• Empowering: You CAN do this
+• Data-driven: Numbers and evidence
+• Developer-friendly: Technical understanding
+• Clear: No jargon, just results
+
+DO USE:
+• Direct, clear language
+• Data and statistics
+• Action verbs ("Track", "Organize", "Land", "Secure")
+• Second person "you" / "your"
+• Developer-specific terminology
+• Numbers and metrics
+• Social proof
+
+DO NOT USE:
+• Exaggerated claims ("We guarantee...")
+• Passive voice
+• Technical jargon unrelated to job search
+• Overly casual language (slang)
+• Negative framing ("don't fail...")
+• Generic phrases ("best ever")
+
+HEADLINE FORMULA:
+[Action Verb] + [Specific Benefit] + [Time/Ease]
+Example: "Track 300+ Applications in 5 Minutes Per Day"
+
+BODY COPY FORMULA:
+Pain Point → Solution → Benefit → Evidence → CTA
+Example: "Missing follow-ups is costing you interviews. Our follow-up reminder system automatically tracks deadlines. Never miss an opportunity again. 500+ developers use this system. Download now."
+
+================================================================================
+SOCIAL MEDIA BRAND GUIDELINES
+================================================================================
+
+PROFILE PHOTOS:
+• Size: 400×400px minimum
+• Style: Logo on white background
+• Consistent across all platforms
+
+COVER PHOTOS:
+• Twitter: 1500×500px
+• LinkedIn: 1584×396px
+• Facebook: 820×312px
+• YouTube: 2560×1440px
+
+POST SIZING:
+• Instagram Feed: 1080×1080px (square) or 1080×1350px (portrait)
+• Instagram Story: 1080×1920px
+• LinkedIn Post: 1200×628px
+• Twitter Post: 1600×900px
+• Pinterest Pin: 1000×1500px
+• TikTok: 1080×1920px
+
+COLOR USAGE PER PLATFORM:
+• Instagram: More orange and teal accents
+• LinkedIn: More professional black and white
+• Twitter: Mix of all brand colors
+• TikTok: High contrast, orange dominant
+
+HASHTAG STRATEGY:
+Primary: #jobsearch #developer #career
+Secondary: #excel #spreadsheet #productivity
+Niche: #techcareers #softwareengineeer #devjobs
+Brand: #CreatorDockStudio #JobTrackerPRO
+
+================================================================================
+EMAIL BRAND GUIDELINES
+================================================================================
+
+EMAIL SIGNATURE:
+[Name]
+CreatorDockStudio
+creator@creatordockstudio.com
+Etsy: etsy.com/shop/CreatorDockStudio
+
+EMAIL HEADER:
+• Brand logo top center
+• Orange accent bar below logo
+• White background
+
+EMAIL BODY:
+• Font: Arial/Helvetica (email-safe)
+• Primary text: #222222
+• Links: #FF6B35
+• Background: #FFFFFF
+• Secondary sections: #F5F5F5
+
+EMAIL FOOTER:
+• Gray background #F5F5F5
+• Light text #999999
+• Unsubscribe link mandatory
+• Social media icons
+
+================================================================================
+MARKETING MATERIALS STANDARDS
+================================================================================
+
+ETSY LISTING IMAGES:
+• Size: 2000×2000px (square)
+• Format: JPG/PNG
+• Resolution: 300 DPI
+• First image: Product showcase
+• Remaining: Feature details
+
+PRODUCT MOCKUPS:
+• Device: Modern laptop/monitor
+• Background: Clean, minimal
+• Resolution: 300 DPI
+• Size: 2000×2000px
+
+PROMOTIONAL GRAPHICS:
+• Consistent use of brand colors
+• Logo always visible
+• Clear value proposition
+• Single focused message per graphic
+
+PRINT MATERIALS:
+• Resolution: 300 DPI minimum
+• Color mode: CMYK for print
+• Bleed: 3mm all around
+• Safe zone: 5mm from edges
+
+================================================================================
+VERSION CONTROL
+================================================================================
+
+Document Version: 1.0
+Last Updated: 2026
+Next Review: 2027 Q1
+
+All branding assets should be reviewed annually or with major product updates.
+
+================================================================================
+CreatorDockStudio
+Premium Digital Products for Developers
+================================================================================

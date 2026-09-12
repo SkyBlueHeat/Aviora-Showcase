@@ -1,0 +1,712 @@
+{
+  "Dashboard": {
+    "name": "Dashboard",
+    "headers": [
+      "",
+      "Developer Job Application Tracker PRO",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "header_row_index": 2,
+    "example_rows": [
+      [
+        null,
+        "Executive Dashboard  ·  v3.0  ·  CreatorDockStudio",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "Total Applications",
+        null,
+        "Active Applications",
+        null,
+        "Interviews",
+        null,
+        "Offers",
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 9,
+    "relevance": [
+      "dashboard"
+    ]
+  },
+  "Applications": {
+    "name": "Applications",
+    "headers": [
+      "Application ID",
+      "Company",
+      "Role",
+      "Location",
+      "Country",
+      "Remote",
+      "Salary",
+      "Source",
+      "Date Applied",
+      "Status",
+      "Priority",
+      "Fit Score",
+      "Follow-up Date",
+      "Recruiter",
+      "LinkedIn Recruiter",
+      "Interview Date",
+      "Offer",
+      "Application URL",
+      "Company Career Page",
+      "Resume Version",
+      "Cover Letter Version",
+      "Visa Sponsorship",
+      "Employment Type",
+      "Work Authorization",
+      "Referral",
+      "Expected Salary",
+      "Current Stage",
+      "Days Since Applied",
+      "Days Until Follow-up",
+      "Interview Count",
+      "Favorite",
+      "Archive",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [],
+    "all_values_empty": false,
+    "col_count": 33,
+    "relevance": [
+      "applications"
+    ]
+  },
+  "Interview Tracker": {
+    "name": "Interview Tracker",
+    "headers": [
+      "Company",
+      "Role",
+      "Interview Stage",
+      "Interviewer",
+      "Interview Date",
+      "Interview Number",
+      "Duration (min)",
+      "Preparation Status",
+      "Confidence Score",
+      "Difficulty",
+      "Result",
+      "Technical Topics",
+      "Coding Questions",
+      "Behavioral Questions",
+      "Next Step",
+      "Notes",
+      "Lessons Learned"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Tech Corp",
+        "Senior Frontend Developer",
+        "Technical",
+        "Jane Smith",
+        null,
+        null,
+        "Pending",
+        null,
+        null,
+        null,
+        "Pending",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 17,
+    "relevance": [
+      "applications",
+      "interviews"
+    ]
+  },
+  "Recruiter CRM": {
+    "name": "Recruiter CRM",
+    "headers": [
+      "Recruiter Name",
+      "Company",
+      "Email",
+      "LinkedIn",
+      "Position",
+      "Last Contact",
+      "Last Reply",
+      "Avg Response Time (days)",
+      "Next Follow-up",
+      "Relationship Status",
+      "Company Rating",
+      "Priority",
+      "Reminder Status",
+      "Next Action",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "John Doe",
+        "Tech Corp",
+        "john@techcorp.com",
+        "linkedin.com/in/johndoe",
+        "Technical Recruiter",
+        null,
+        null,
+        "5",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "5"
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 15,
+    "relevance": []
+  },
+  "Target Companies": {
+    "name": "Target Companies",
+    "headers": [
+      "Company",
+      "Industry",
+      "Location",
+      "Remote",
+      "Size",
+      "Website",
+      "Career Page",
+      "Status",
+      "Priority",
+      "Hiring Status",
+      "Visa Sponsor",
+      "Remote Friendly",
+      "Tech Stack",
+      "Glassdoor Rating",
+      "LinkedIn Followers",
+      "Company Size Category",
+      "Dream Company",
+      "Priority Score",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Tech Corp",
+        "Software",
+        "San Francisco, CA",
+        "Yes",
+        "1000+",
+        "techcorp.com",
+        "Researching",
+        "Researching",
+        "High",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 19,
+    "relevance": []
+  },
+  "Salary Comparison": {
+    "name": "Salary Comparison",
+    "headers": [
+      "Company",
+      "Base Salary",
+      "Bonus",
+      "Equity",
+      "Benefits Value",
+      "PTO Days",
+      "Remote",
+      "Visa Sponsorship",
+      "Signing Bonus",
+      "Relocation Bonus",
+      "Annual Compensation",
+      "Monthly Income",
+      "Hourly Rate",
+      "Total Compensation",
+      "Estimated Tax (25%)",
+      "Net Salary",
+      "Decision Score",
+      "Weighted Score",
+      "Offer Ranking"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Tech Corp",
+        150000,
+        20000,
+        50000,
+        "Full Health",
+        "20 days",
+        "Yes",
+        "Yes",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 19,
+    "relevance": [
+      "salary"
+    ]
+  },
+  "Weekly Planner": {
+    "name": "Weekly Planner",
+    "headers": [
+      "Week Of",
+      "Applications Goal",
+      "Completed",
+      "Networking",
+      "Interview Prep",
+      "Learning",
+      "Follow-ups",
+      "Reflection"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "2026-06-29",
+        20,
+        0,
+        "3 coffee chats",
+        "2 companies",
+        "React patterns",
+        "5 follow-ups",
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 8,
+    "relevance": []
+  },
+  "Statistics": {
+    "name": "Statistics",
+    "headers": [
+      "",
+      "Job Search Statistics & Analytics",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "header_row_index": 2,
+    "example_rows": [
+      [
+        null,
+        "Automatically calculated from your Applications data",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        "Application Metrics",
+        null,
+        null,
+        "Conversion Rates",
+        null,
+        null
+      ],
+      [
+        null,
+        "Applications Submitted",
+        null,
+        null,
+        "Response Rate",
+        null,
+        null
+      ],
+      [
+        null,
+        "Applications per Week",
+        null,
+        null,
+        "Interview Rate",
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 7,
+    "relevance": []
+  },
+  "Notes": {
+    "name": "Notes",
+    "headers": [
+      "",
+      "Notes",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "header_row_index": 2,
+    "example_rows": [
+      [
+        null,
+        "General Notes",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 7,
+    "relevance": []
+  },
+  "Portfolio Projects": {
+    "name": "Portfolio Projects",
+    "headers": [
+      "Project Name",
+      "Description",
+      "Status",
+      "Start Date",
+      "Completion Date",
+      "Type",
+      "Tech Stack",
+      "GitHub URL",
+      "Live Demo",
+      "Skills Demonstrated",
+      "Complexity",
+      "Time Investment",
+      "Showcase Ready",
+      "Interview Worthy",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "E-Commerce Platform",
+        "Full-stack e-commerce solution",
+        "Completed",
+        "2026-01-15",
+        "2026-03-30",
+        "Web App",
+        "React, Node.js, MongoDB, Stripe",
+        "github.com/user/ecommerce",
+        "demo.example.com",
+        "Frontend, Backend, Database, API",
+        "Advanced",
+        "120 hours",
+        "Ready",
+        "Yes",
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 15,
+    "relevance": []
+  },
+  "Networking Tracker": {
+    "name": "Networking Tracker",
+    "headers": [
+      "Contact Name",
+      "Company",
+      "LinkedIn",
+      "Email",
+      "Connection Date",
+      "Connection Type",
+      "Platform",
+      "Relationship Type",
+      "Last Contact",
+      "Next Follow-up",
+      "Follow-up Status",
+      "Meeting Scheduled",
+      "Coffee Chat",
+      "Referral Requested",
+      "Referral Received",
+      "Priority",
+      "Network Score",
+      "Relationship Score",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Jane Smith",
+        "Google",
+        "linkedin.com/in/janesmith",
+        "jane@google.com",
+        "2026-06-29",
+        "LinkedIn Connection",
+        null,
+        "LinkedIn Connection",
+        "8",
+        "Not Asked",
+        null,
+        "No",
+        "No",
+        null,
+        null,
+        null,
+        "8",
+        null,
+        "No"
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 19,
+    "relevance": [
+      "applications"
+    ]
+  },
+  "Skill Gap Analysis": {
+    "name": "Skill Gap Analysis",
+    "headers": [
+      "Skill Category",
+      "Skill Name",
+      "Current Level",
+      "Target Level",
+      "Gap",
+      "Gap Level",
+      "Learning Resource",
+      "Priority",
+      "Status",
+      "Difficulty",
+      "Start Date",
+      "Target Date",
+      "Estimated Hours",
+      "Hours Invested",
+      "Estimated Completion",
+      "Progress %",
+      "Progress Bar",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Frontend",
+        "React",
+        "Intermediate",
+        "Advanced",
+        "1 level",
+        null,
+        "React Official Docs",
+        "High",
+        "Not Started",
+        null,
+        "0%",
+        "0",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 18,
+    "relevance": []
+  },
+  "Cover Letter Tracker": {
+    "name": "Cover Letter Tracker",
+    "headers": [
+      "Company",
+      "Role",
+      "Version",
+      "Date Created",
+      "Date Sent",
+      "Template Used",
+      "Customization Level",
+      "Response Received",
+      "Interview Scheduled",
+      "Success Rate",
+      "A/B Test Group",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Tech Corp",
+        "Senior Frontend Developer",
+        "v1.0",
+        "2026-06-29",
+        null,
+        "Template A",
+        "Heavy Customization",
+        "No",
+        "No",
+        "0%",
+        "A",
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 12,
+    "relevance": [
+      "applications",
+      "cover letters"
+    ]
+  },
+  "Job Search Calendar": {
+    "name": "Job Search Calendar",
+    "headers": [
+      "Date",
+      "Event Type",
+      "Company",
+      "Role",
+      "Time",
+      "Location/Link",
+      "Preparation Needed",
+      "Status",
+      "Priority",
+      "Follow-up Required",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "2026-06-29",
+        "Technical Assessment",
+        "Tech Corp",
+        "Senior Frontend Developer",
+        "2:00 PM",
+        "Online (Zoom)",
+        "Practice coding problems",
+        "Scheduled",
+        "High",
+        "Yes",
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 11,
+    "relevance": []
+  },
+  "Learning Resources": {
+    "name": "Learning Resources",
+    "headers": [
+      "Resource Name",
+      "Type",
+      "Provider",
+      "Topic",
+      "URL",
+      "Cost",
+      "Duration",
+      "Start Date",
+      "Completion Date",
+      "Progress %",
+      "Certificate",
+      "Priority",
+      "Rating",
+      "Notes"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "React - The Complete Guide",
+        "Course",
+        "Udemy",
+        "React",
+        "udemy.com/course/react",
+        "$15",
+        "40 hours",
+        null,
+        null,
+        "0%",
+        "Yes",
+        "High",
+        null,
+        null
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 14,
+    "relevance": []
+  },
+  "Offer Decision Matrix": {
+    "name": "Offer Decision Matrix",
+    "headers": [
+      "Company",
+      "Base Salary",
+      "Bonus",
+      "Equity",
+      "Benefits Value",
+      "Remote Flexibility",
+      "Visa Sponsorship",
+      "Career Growth",
+      "Manager Quality",
+      "Engineering Culture",
+      "Tech Stack",
+      "Learning Potential",
+      "Work-Life Balance",
+      "Location",
+      "Promotion Opportunities",
+      "Company Stability",
+      "PTO Days",
+      "Weighted Score",
+      "Rank",
+      "Decision"
+    ],
+    "header_row_index": 1,
+    "example_rows": [
+      [
+        "Tech Corp",
+        150000,
+        20000,
+        50000,
+        15000,
+        "Yes",
+        20,
+        "9",
+        "8",
+        "9",
+        "9",
+        "9",
+        "8",
+        "San Francisco",
+        "30 min",
+        "Yes",
+        "8",
+        null,
+        null,
+        "Pending"
+      ]
+    ],
+    "all_values_empty": false,
+    "col_count": 20,
+    "relevance": []
+  }
+}

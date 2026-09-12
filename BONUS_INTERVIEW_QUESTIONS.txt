@@ -1,0 +1,151 @@
+===========================================
+BONUS: 100+ INTERVIEW QUESTIONS
+Developer Job Application Tracker PRO
+===========================================
+
+FRONTEND DEVELOPER INTERVIEW QUESTIONS
+
+HTML/CSS
+1. What is the box model in CSS?
+2. Explain the difference between block, inline, and inline-block elements.
+3. How do you center a div horizontally and vertically?
+4. What are CSS preprocessors and why use them?
+5. Explain the difference between CSS Grid and Flexbox.
+6. What is the DOM and how does it work?
+7. How do you optimize website performance?
+8. What are pseudo-classes and pseudo-elements?
+9. Explain the concept of responsive design.
+10. What is the difference between px, em, rem, and vw/vh?
+
+JAVASCRIPT
+11. Explain event bubbling and event capturing.
+12. What is the difference between let, const, and var?
+13. Explain closures in JavaScript.
+14. What is the difference between == and ===?
+15. How does prototypal inheritance work?
+16. What are promises and async/await?
+17. Explain the concept of hoisting.
+18. What is the difference between map, filter, and reduce?
+19. How do you handle errors in JavaScript?
+20. Explain the event loop in JavaScript.
+
+REACT
+21. What are React hooks and why were they introduced?
+22. Explain the difference between useEffect and useLayoutEffect.
+23. What is the virtual DOM and how does it work?
+24. How do you manage state in React?
+25. Explain the concept of props drilling.
+26. What is the Context API?
+27. How do you optimize React performance?
+28. Explain the difference between controlled and uncontrolled components.
+29. What are React fragments?
+30. How does React.memo work?
+
+BACKEND DEVELOPER INTERVIEW QUESTIONS
+
+GENERAL
+31. Explain the difference between SQL and NoSQL databases.
+32. What is REST and what are RESTful APIs?
+33. Explain the concept of microservices architecture.
+34. What is the difference between authentication and authorization?
+35. How do you handle database transactions?
+36. Explain the concept of caching.
+37. What is a CDN and why is it important?
+38. How do you handle API rate limiting?
+39. Explain the difference between GET and POST.
+40. What are webhooks and how do they work?
+
+NODE.JS
+41. What is the event loop in Node.js?
+42. Explain the difference between process.nextTick and setImmediate.
+43. How do you handle asynchronous operations in Node.js?
+44. What are streams in Node.js?
+45. Explain the concept of middleware in Express.js.
+46. How do you handle errors in Node.js?
+47. What is clustering in Node.js?
+48. Explain the difference between fork and spawn.
+49. How do you manage environment variables?
+50. What is the purpose of package.json?
+
+DATABASE
+51. Explain the difference between primary key and foreign key.
+52. What are database indexes and when should you use them?
+53. How do you optimize SQL queries?
+54. Explain the concept of normalization.
+55. What is a JOIN and what are the different types?
+56. How do you handle database migrations?
+57. Explain the difference between DELETE and TRUNCATE.
+58. What are stored procedures?
+59. How do you handle database connections efficiently?
+60. Explain the concept of ACID properties.
+
+SYSTEM DESIGN
+61. How would you design a URL shortener?
+62. Explain the concept of load balancing.
+63. What is a distributed system?
+64. How do you handle scalability?
+65. Explain the difference between vertical and horizontal scaling.
+66. What is a microservices architecture?
+67. How do you handle data consistency in distributed systems?
+68. Explain the concept of CAP theorem.
+69. What is a message queue?
+70. How do you design a real-time chat application?
+
+BEHAVIORAL QUESTIONS
+
+71. Tell me about a challenging project you worked on.
+72. How do you handle tight deadlines?
+73. Describe a time you had a conflict with a team member.
+74. How do you stay updated with technology?
+75. Tell me about a time you failed and what you learned.
+76. How do you approach problem-solving?
+77. Describe your ideal work environment.
+78. How do you handle constructive criticism?
+79. Tell me about a time you had to learn a new technology quickly.
+80. How do you prioritize your tasks?
+
+ALGORITHM & DATA STRUCTURES
+
+81. Explain the difference between arrays and linked lists.
+82. What is Big O notation?
+83. Explain the difference between BFS and DFS.
+84. How do you reverse a linked list?
+85. What is a binary search tree?
+86. Explain the concept of dynamic programming.
+87. How do you detect a cycle in a linked list?
+88. What is a hash table and how does it work?
+89. Explain the difference between stack and queue.
+90. How do you find the middle element of a linked list?
+
+DEVOPS & CLOUD
+
+91. What is Docker and why is it useful?
+92. Explain the difference between CI and CD.
+93. What is Kubernetes?
+94. How do you monitor application performance?
+95. Explain the concept of infrastructure as code.
+96. What is AWS Lambda?
+97. How do you handle secrets management?
+98. Explain the difference between TCP and UDP.
+99. What is a reverse proxy?
+100. How do you implement blue-green deployment?
+
+===========================================
+
+TIPS FOR ANSWERING INTERVIEW QUESTIONS
+
+1. Use the STAR method (Situation, Task, Action, Result)
+2. Be honest about what you don't know
+3. Ask clarifying questions
+4. Think out loud when solving problems
+5. Provide examples from your experience
+6. Show enthusiasm for learning
+7. Research the company beforehand
+8. Practice explaining complex concepts simply
+9. Be prepared to write code on a whiteboard
+10. Follow up with thoughtful questions
+
+===========================================
+
+CreatorDockStudio
+Premium digital products for developers
